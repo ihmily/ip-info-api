@@ -2,7 +2,9 @@
 
 该存储库收集了各种免费的IP查询API，使开发人员能够快速访问IP信息，如地理位置、ISP详细信息和网络类型。持续更新中，欢迎star
 
-### IP地址
+&emsp;
+
+### API列表
 
 1.可查询本机IP和通过IP查询
 
@@ -22,14 +24,21 @@
 
 [https://cdid.c-ctrip.com/model-poc2/h](#address-2.3) 
 
+[https://vv.video.qq.com/checktime?otype=ojson](#address-2.4) 
+
+[https://api.uomg.com/api/visitor.info?skey=1](#address-2.5) 
+
+[https://test.ipw.cn/api/ip/myip?json](#address-2.6) 
+
 3.只可通过IP查询
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
 
 &emsp;
 <a name="address-1.1"></a>
+
 ### 1.可查询本机IP和通过IP查询 
- 
+
 
 **地址①**：https://webapi-pc.meitu.com/common/ip_location?ip=
 
@@ -198,7 +207,8 @@ https://api.vore.top/api/IPdata?ip=121.8.215.106
 
 &emsp;
 <a name="address-2.1"></a>
-### 2.只可查本机IP 
+
+### 2.只可查询本机IP 
 
 **地址①**：https://ip.useragentinfo.com/json
 
@@ -272,7 +282,89 @@ https://cdid.c-ctrip.com/model-poc2/h
 ```
 
 &emsp;
+
+**地址④**：https://vv.video.qq.com/checktime?otype=ojson <a name="address-2.4"></a>
+
+请求类型：GET
+
+请求参数：otype
+
+请求示例：
+
+```
+https://vv.video.qq.com/checktime?otype=ojson
+```
+
+> otype=json时返回类型为jsonp
+
+示例结果：
+
+```
+{
+  "s": "o",
+  "t": 1708586979,
+  "ip": "222.79.47.146",
+  "pos": "---",
+  "rand": "FRM_cmo206yshBHl5h4_9A=="
+}
+```
+
+&emsp;
+
+**地址⑤**：https://api.uomg.com/api/visitor.info?skey=1 <a name="address-2.5"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://api.uomg.com/api/visitor.info?skey=1
+```
+
+示例结果：
+
+```
+{
+  "code": 1,
+  "ip": "20.249.16.173",
+  "system": "Windows 10 x64 Edition",
+  "browser": "Chrome 114.0.0.0",
+  "time": "2024-02-22 15:37:33"
+}
+```
+
+&emsp;
+
+**地址⑥**：https://test.ipw.cn/api/ip/myip?json <a name="address-2.6"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://test.ipw.cn/api/ip/myip?json
+```
+
+示例结果：
+
+```
+{
+  "code": 1,
+  "ip": "20.249.16.173",
+  "system": "Windows 10 x64 Edition",
+  "browser": "Chrome 114.0.0.0",
+  "time": "2024-02-22 15:37:33"
+}
+```
+
+&emsp;
+
 <a name="address-3.1"></a>
+
 ### 3.只可通过IP查询 
 
 **地址①**：http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=
@@ -316,3 +408,4 @@ https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=121.8.215.
 }
 ```
 
+&emsp;
