@@ -1,6 +1,6 @@
-# ip-info-api
+# 说明
 
-该存储库收集了各种免费的IP查询API，使开发人员能够快速访问IP信息，如地理位置、ISP详细信息和网络类型。持续更新中，欢迎star
+该存储库收集了各种免费的IP查询API，无需配置任何key直接可访问，使大家能够快速访问IP信息，如地理位置、ISP详细信息和网络类型。请根据自己的需求选择合适的API，持续更新中，欢迎star
 
 &emsp;
 
@@ -15,6 +15,8 @@
 [https://whois.pconline.com.cn/ipJson.jsp?ip=&json=true](#address-1.3) 
 
 [https://api.vore.top/api/IPdata?ip=](#address-1.4) 
+
+[https://api.ip.sb/geoip/](#address-1.5) 
 
 2.只可查询本机IP
 
@@ -33,6 +35,8 @@
 3.只可通过IP查询
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
+
+[https://get.geojs.io/v1/ip/geo/121.8.215.106.json](#address-3.2) 
 
 &emsp;
 <a name="address-1.1"></a>
@@ -206,6 +210,47 @@ https://api.vore.top/api/IPdata?ip=121.8.215.106
 ```
 
 &emsp;
+
+**地址**⑤：https://api.ip.sb/geoip/ <a name="address-1.5"></a>
+
+请求类型：GET
+
+请求参数(可选)：你的ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.ip.sb/geoip/
+
+# 通过ip查询信息
+https://api.ip.sb/geoip/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "organization": "China Telecom",
+    "longitude": 113.2539,
+    "city": "Guangzhou",
+    "timezone": "Asia/Shanghai",
+    "isp": "China Telecom",
+    "offset": 28800,
+    "region": "Guangdong",
+    "asn": 4134,
+    "asn_organization": "Chinanet",
+    "country": "China",
+    "ip": "121.8.215.106",
+    "latitude": 23.1181,
+    "continent_code": "AS",
+    "country_code": "CN",
+    "region_code": "GD"
+}
+```
+
+&emsp;
+
 <a name="address-2.1"></a>
 
 ### 2.只可查询本机IP 
@@ -405,6 +450,42 @@ https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=121.8.215.
       "tplt": "ip"
     }
   ]
+}
+```
+
+&emsp;
+
+**地址②**：https://get.geojs.io/v1/ip/geo/121.8.215.106.json <a name="address-3.2"></a>
+
+请求类型：GET
+
+请求参数：你的ip
+
+请求示例：
+
+```
+https://get.geojs.io/v1/ip/geo/121.8.215.106.json
+```
+
+示例结果：
+
+```
+{
+    "country": "China",
+    "timezone": "Asia/Shanghai",
+    "ip": "121.8.215.106",
+    "organization": "AS4134 Chinanet",
+    "asn": 4134,
+    "area_code": "0",
+    "organization_name": "Chinanet",
+    "country_code": "CN",
+    "country_code3": "CHN",
+    "continent_code": "AS",
+    "latitude": "23.1181",
+    "region": "Guangdong",
+    "city": "Guangzhou",
+    "longitude": "113.2539",
+    "accuracy": 1000
 }
 ```
 
