@@ -18,6 +18,8 @@
 
 [https://api.ip.sb/geoip/](#address-1.5) 
 
+[https://api.ip2location.io/](#address-1.6) 
+
 2.只可查询本机IP
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
@@ -211,7 +213,7 @@ https://api.vore.top/api/IPdata?ip=121.8.215.106
 
 &emsp;
 
-**地址**⑤：https://api.ip.sb/geoip/ <a name="address-1.5"></a>
+**地址⑤**：https://api.ip.sb/geoip/ <a name="address-1.5"></a>
 
 请求类型：GET
 
@@ -246,6 +248,44 @@ https://api.ip.sb/geoip/121.8.215.106
     "continent_code": "AS",
     "country_code": "CN",
     "region_code": "GD"
+}
+```
+
+&emsp;
+
+**地址⑥**：https://api.ip2location.io/ <a name="address-1.6"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.ip2location.io/
+
+# 通过ip查询信息
+https://api.ip2location.io/?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ip": "121.8.215.106",
+  "country_code": "CN",
+  "country_name": "China",
+  "region_name": "Guangdong",
+  "city_name": "Guangzhou",
+  "latitude": 23.127361,
+  "longitude": 113.26457,
+  "zip_code": "510140",
+  "time_zone": "+08:00",
+  "asn": "4134",
+  "as": "Asia Pacific Network Information Centre",
+  "is_proxy": true,
+  "message": "Limit to 500 queries per day. Sign up for a Free plan at https://www.ip2location.io to get 30K queries per month."
 }
 ```
 
