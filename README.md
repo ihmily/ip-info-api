@@ -44,6 +44,8 @@
 
 [https://api.ipify.org](#address-2.7) 
 
+[https://ipv4.my.ipinfo.app/api/ipDetails.php](#address-2.8) 
+
 3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
@@ -51,6 +53,10 @@
 [https://get.geojs.io/v1/ip/geo/121.8.215.106.json](#address-3.2) 
 
 [https://ipinfo.io/widget/demo/121.8.215.106](#address-3.3) 
+
+[https://ipapi.com/ip_api.php?ip=121.8.215.106](#address-3.4) 
+
+[https://db-ip.com/demo/home.php?s=121.8.215.106](#address-3.5) 
 
 &emsp;
 <a name="address-1.1"></a>
@@ -701,6 +707,33 @@ https://api64.ipify.org/?format=json
 
 &emsp;
 
+**地址⑧**：https://ipv4.my.ipinfo.app/api/ipDetails.php <a name="address-2.8"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://ipv4.my.ipinfo.app/api/ipDetails.php
+```
+
+示例结果：
+
+```
+{
+    "ip": "8.210.218.24",
+    "asn": "AS45102 ALIBABA-CN-NET Alibaba US Technology Co., Ltd., CN",
+    "continent": "AS",
+    "continentLong": "Asia",
+    "flag": "https://my.ipinfo.app/imgs/flags/4x3/sg.svg",
+    "country": "Singapore"
+}
+```
+
+&emsp;
+
 <a name="address-3.1"></a>
 
 ### 3.只可通过IP查询 
@@ -837,6 +870,147 @@ https://ipinfo.io/widget/demo/121.8.215.106
             "network": "121.8.0.0/13",
             "phone": "+000000000"
         }
+    }
+}
+```
+
+&emsp;
+
+**地址④**：https://ipapi.com/ip_api.php?ip=121.8.215.106 <a name="address-3.4"></a>
+
+请求类型：GET
+
+请求参数：ip
+
+请求示例：
+
+```
+https://ipapi.com/ip_api.php?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "ip": "121.8.215.106",
+    "hostname": "121.8.215.106",
+    "type": "ipv4",
+    "continent_code": "AS",
+    "continent_name": "Asia",
+    "country_code": "CN",
+    "country_name": "China",
+    "region_code": "GD",
+    "region_name": "Guangdong",
+    "city": "Guangzhou",
+    "zip": "510000",
+    "latitude": 23.124719619750977,
+    "longitude": 113.23860931396484,
+    "location": {
+        "geoname_id": 1809858,
+        "capital": "Beijing",
+        "languages": [
+            {
+                "code": "zh",
+                "name": "Chinese",
+                "native": "中文"
+            }
+        ],
+        "country_flag": "https://assets.ipstack.com/flags/cn.svg",
+        "country_flag_emoji": "🇨🇳",
+        "country_flag_emoji_unicode": "U+1F1E8 U+1F1F3",
+        "calling_code": "86",
+        "is_eu": false
+    },
+    "time_zone": {
+        "id": "Asia/Shanghai",
+        "current_time": "2024-03-15T15:14:15+08:00",
+        "gmt_offset": 28800,
+        "code": "CST",
+        "is_daylight_saving": false
+    },
+    "currency": {
+        "code": "CNY",
+        "name": "Chinese Yuan",
+        "plural": "Chinese yuan",
+        "symbol": "CN¥",
+        "symbol_native": "CN¥"
+    },
+    "connection": {
+        "asn": 4134,
+        "isp": "Chinanet"
+    },
+    "security": {
+        "is_proxy": false,
+        "proxy_type": null,
+        "is_crawler": false,
+        "crawler_name": null,
+        "crawler_type": null,
+        "is_tor": false,
+        "threat_level": "low",
+        "threat_types": null
+    }
+}
+```
+
+&emsp;
+
+**地址⑤**：https://db-ip.com/demo/home.php?s=121.8.215.106 <a name="address-3.5"></a>
+
+请求类型：GET
+
+请求参数：s=你的ip
+
+请求示例：
+
+```
+https://db-ip.com/demo/home.php?s=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "status": "ok",
+    "demoInfo": {
+        "ipAddress": "121.8.215.106",
+        "continentCode": "AS",
+        "continentName": "Asia",
+        "countryCode": "CN",
+        "countryName": "中国",
+        "isEuMember": false,
+        "currencyCode": "CNY",
+        "currencyName": "Yuan Renminbi",
+        "phonePrefix": "86",
+        "languages": [
+            "zh-CN",
+            "yue",
+            "wuu",
+            "dta",
+            "ug",
+            "za"
+        ],
+        "stateProvCode": "GD",
+        "stateProv": "广东",
+        "district": "广州",
+        "city": "小楼",
+        "geonameId": 1790085,
+        "latitude": 23.379,
+        "longitude": 113.763,
+        "gmtOffset": 8,
+        "timeZone": "Asia/Shanghai",
+        "weatherCode": "CHXX5497",
+        "asNumber": 4134,
+        "asName": "CHINANET-BACKBONE",
+        "isp": "Chinanet",
+        "usageType": "corporate",
+        "organization": "Chinanet GD",
+        "isCrawler": false,
+        "isProxy": false,
+        "threatLevel": "high",
+        "threatDetails": [
+            "attack-source",
+            "attack-target:web"
+        ]
     }
 }
 ```
