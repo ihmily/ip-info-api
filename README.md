@@ -6,7 +6,7 @@
 
 ### API列表
 
-1.可查询本机IP和通过IP查询
+1.可查询本机IP和通过IP查询信息
 
 [https://webapi-pc.meitu.com/common/ip_location](#address-1.1) 
 
@@ -22,7 +22,13 @@
 
 [https://realip.cc/](#address-1.7)
 
-2.只可查询本机IP
+[http://demo.ip-api.com/json/?lang=zh-CN](#address-1.8)
+
+[https://ip-api.io/json](#address-1.9)
+
+[https://ipapi.co/json/](#address-1.10)
+
+2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
 
@@ -36,11 +42,15 @@
 
 [https://test.ipw.cn/api/ip/myip?json](#address-2.6) 
 
-3.只可通过IP查询
+[https://api.ipify.org](#address-2.7) 
+
+3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
 
 [https://get.geojs.io/v1/ip/geo/121.8.215.106.json](#address-3.2) 
+
+[https://ipinfo.io/widget/demo/121.8.215.106](#address-3.3) 
 
 &emsp;
 <a name="address-1.1"></a>
@@ -342,6 +352,170 @@ https://realip.cc/?ip=121.8.215.106
 
 &emsp;
 
+**地址⑧**：http://demo.ip-api.com/json/?fields=66842623&lang=zh-CN <a name="address-1.8"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip、lang ...
+
+请求示例：
+
+```
+# lang optional value
+en：English (default) 英语（默认）
+zh-CN：中国 (Chinese)
+de：Deutsch (German) Deutsch （德语）
+es：Español (Spanish) Español （西班牙语）
+fr：Français (French) Français （法语）
+ja：日本語 (Japanese) 日本语（ Japanese）
+ru：Русский (Russian) Русский （俄语）
+
+# 注意是http ！！！
+
+# 查询本机ip
+http://demo.ip-api.com/json/?fields=66842623&lang=zh-CN
+
+# 通过ip查询信息
+http://demo.ip-api.com/json/121.8.215.106?fields=66842623&lang=zh-CN
+
+API docs：
+https://ip-api.com/docs/api:json
+```
+
+示例结果：
+
+```
+{
+    "status": "success",
+    "continent": "亚洲",
+    "continentCode": "AS",
+    "country": "中国",
+    "countryCode": "CN",
+    "region": "GD",
+    "regionName": "广东",
+    "city": "广州市",
+    "district": "",
+    "zip": "",
+    "lat": 23.1181,
+    "lon": 113.2539,
+    "timezone": "Asia/Shanghai",
+    "offset": 28800,
+    "currency": "CNY",
+    "isp": "Chinanet",
+    "org": "Chinanet GD",
+    "as": "AS4134 CHINANET-BACKBONE",
+    "asname": "CHINANET-BACKBONE",
+    "mobile": false,
+    "proxy": true,
+    "hosting": false,
+    "query": "121.8.215.106"
+}
+```
+
+&emsp;
+
+**地址⑨**：https://ip-api.io/json <a name="address-1.9"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://ip-api.io/json
+
+# 通过ip查询信息
+https://ip-api.io/json?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "callingCode": "86",
+    "city": "Guangzhou",
+    "countryCapital": "Beijing",
+    "country_code": "CN",
+    "country_name": "China",
+    "currency": "CNY",
+    "currencySymbol": "¥",
+    "emojiFlag": "🇨🇳",
+    "flagUrl": "https://ip-api.io/images/flags/cn.svg",
+    "ip": "121.8.215.106",
+    "is_in_european_union": false,
+    "latitude": 23.1181,
+    "longitude": 113.2539,
+    "metro_code": 0,
+    "organisation": "Chinanet",
+    "region_code": "GD",
+    "region_name": "Guangdong",
+    "suspiciousFactors": {
+        "isProxy": false,
+        "isSpam": false,
+        "isSuspicious": false,
+        "isTorNode": false
+    },
+    "time_zone": "Asia/Shanghai",
+    "zip_code": ""
+}
+```
+
+&emsp;
+
+**地址⑩**：https://ipapi.co/json <a name="address-1.10"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://ipapi.co/json/
+
+# 通过ip查询信息
+https://ipapi.co/121.8.215.106/json/
+```
+
+示例结果：
+
+```
+{
+    "ip": "121.8.215.106",
+    "network": "121.8.128.0/17",
+    "version": "IPv4",
+    "city": "Guangzhou",
+    "region": "Guangdong",
+    "region_code": "GD",
+    "country": "CN",
+    "country_name": "China",
+    "country_code": "CN",
+    "country_code_iso3": "CHN",
+    "country_capital": "Beijing",
+    "country_tld": ".cn",
+    "continent_code": "AS",
+    "in_eu": false,
+    "postal": null,
+    "latitude": 23.1181,
+    "longitude": 113.2539,
+    "timezone": "Asia/Shanghai",
+    "utc_offset": "+0800",
+    "country_calling_code": "+86",
+    "currency": "CNY",
+    "currency_name": "Yuan Renminbi",
+    "languages": "zh-CN,yue,wuu,dta,ug,za",
+    "country_area": 9596960,
+    "country_population": 1411778724,
+    "asn": "AS4134",
+    "org": "Chinanet"
+}
+```
+
+&emsp;
+
 <a name="address-2.1"></a>
 
 ### 2.只可查询本机IP 
@@ -499,6 +673,34 @@ https://test.ipw.cn/api/ip/myip?json
 
 &emsp;
 
+**地址⑦**：https://api.ipify.org <a name="address-2.7"></a>
+
+请求类型：GET
+
+请求参数（可选）：format
+
+请求示例：
+
+```
+format：text, json, jsonp
+
+# IPv4
+https://api.ipify.org?format=json
+
+# IPv6
+https://api64.ipify.org/?format=json
+```
+
+示例结果：
+
+```
+{
+    "ip": "185.151.146.112"
+}
+```
+
+&emsp;
+
 <a name="address-3.1"></a>
 
 ### 3.只可通过IP查询 
@@ -577,6 +779,65 @@ https://get.geojs.io/v1/ip/geo/121.8.215.106.json
     "city": "Guangzhou",
     "longitude": "113.2539",
     "accuracy": 1000
+}
+```
+
+&emsp;
+
+**地址③**：https://ipinfo.io/widget/demo/121.8.215.106 <a name="address-3.3"></a>
+
+请求类型：GET
+
+请求参数：你的ip
+
+请求示例：
+
+```
+https://ipinfo.io/widget/demo/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "input": "121.8.215.106",
+    "data": {
+        "ip": "121.8.215.106",
+        "city": "Shenzhen",
+        "region": "Guangdong",
+        "country": "CN",
+        "loc": "22.5455,114.0683",
+        "org": "AS4134 CHINANET-BACKBONE",
+        "timezone": "Asia/Shanghai",
+        "asn": {
+            "asn": "AS4134",
+            "name": "CHINANET-BACKBONE",
+            "domain": "chinatelecom.com.cn",
+            "route": "121.8.0.0/13",
+            "type": "isp"
+        },
+        "company": {
+            "name": "CHINANET Guangdong province network",
+            "domain": "chinatelecom.cn",
+            "type": "isp"
+        },
+        "privacy": {
+            "vpn": false,
+            "proxy": false,
+            "tor": false,
+            "relay": false,
+            "hosting": false,
+            "service": ""
+        },
+        "abuse": {
+            "address": "No.31 ,jingrong street,beijing, 100032",
+            "country": "CN",
+            "email": "anti-spam@chinatelecom.cn",
+            "name": "ABUSE CHINANETCN",
+            "network": "121.8.0.0/13",
+            "phone": "+000000000"
+        }
+    }
 }
 ```
 
