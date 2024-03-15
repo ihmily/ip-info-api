@@ -20,6 +20,8 @@
 
 [https://api.ip2location.io/](#address-1.6) 
 
+[https://realip.cc/](#address-1.7)
+
 2.只可查询本机IP
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
@@ -286,6 +288,55 @@ https://api.ip2location.io/?ip=121.8.215.106
   "as": "Asia Pacific Network Information Centre",
   "is_proxy": true,
   "message": "Limit to 500 queries per day. Sign up for a Free plan at https://www.ip2location.io to get 30K queries per month."
+}
+```
+
+&emsp;
+
+**地址⑦**：https://realip.cc/ <a name="address-1.7"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+
+curl realip.cc
+
+https://realip.cc/
+
+https://realip.cc/simple # 只返回ip
+
+# 通过ip查询信息
+https://realip.cc/?ip=121.8.215.106
+
+```
+
+示例结果：
+
+```
+{
+    "ip": "103.143.161.60",
+    "city": "Hong Kong",
+    "province": null,
+    "country": "Hong Kong",
+    "continent": "Asia",
+    "isp": "TWOWIN CO., LIMITED",
+    "time_zone": "Asia/Hong_Kong",
+    "latitude": 22.2842,
+    "longitude": 114.1759,
+    "postal_code": null,
+    "iso_code": "HK",
+    "network": "103.143.160.0/23",
+    "notice": "api文档在/docs路径下，调用并发数是有限制的 ©2021-09-27->now",
+    "provider": "Powered by Bboysoul",
+    "blog": "https://www.bboy.app",
+    "tg_group": "https://t.me/bboyapp",
+    "data_updatetime": 202403010,
+    "count": 10345364
 }
 ```
 
