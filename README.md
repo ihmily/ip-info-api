@@ -28,6 +28,10 @@
 
 [https://ipapi.co/json/](#address-1.10)
 
+[https://api.ipapi.is](#address-1.11)
+
+[https://api.ip.sb/geoip](#address-1.12)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
@@ -57,6 +61,8 @@
 [https://ipapi.com/ip_api.php?ip=121.8.215.106](#address-3.4) 
 
 [https://db-ip.com/demo/home.php?s=121.8.215.106](#address-3.5) 
+
+4.[只需要获取IP](#address-4.1) 
 
 &emsp;
 <a name="address-1.1"></a>
@@ -517,6 +523,119 @@ https://ipapi.co/121.8.215.106/json/
     "country_population": 1411778724,
     "asn": "AS4134",
     "org": "Chinanet"
+}
+```
+
+&emsp;
+
+**地址11**：https://ipapi.co/json <a name="address-1.11"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.ipapi.is
+
+# 通过ip查询信息
+https://api.ipapi.is/?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "ip": "121.8.215.106",
+    "rir": "APNIC",
+    "is_bogon": false,
+    "is_mobile": false,
+    "is_crawler": false,
+    "is_datacenter": false,
+    "is_tor": false,
+    "is_proxy": true,
+    "is_vpn": false,
+    "is_abuser": true,
+    "company": {
+        "name": "CHINANET Guangdong province network",
+        "abuser_score": "0.0003 (Very Low)",
+        "domain": "chinatelecom.cn",
+        "type": "isp",
+        "network": "121.8.0.0 - 121.15.255.255",
+        "whois": "https://api.ipapi.is/?whois=121.8.0.0"
+    },
+    "asn": {
+        "asn": 4134,
+        "abuser_score": "0.0013 (Low)",
+        "route": "121.8.0.0/13",
+        "descr": "CHINANET-BACKBONE No.31,Jin-rong Street, CN",
+        "country": "cn",
+        "active": true,
+        "org": "No.31,Jin-rong Street",
+        "domain": "chinatelecom.cn",
+        "abuse": "anti-spam@chinatelecom.cn",
+        "type": "business",
+        "updated": "2021-06-15",
+        "rir": "APNIC",
+        "whois": "https://api.ipapi.is/?whois=AS4134"
+    },
+    "location": {
+        "continent": "AS",
+        "country": "China",
+        "country_code": "CN",
+        "state": "Guangdong",
+        "city": "Guangzhou",
+        "latitude": 23.117,
+        "longitude": 113.25,
+        "zip": "510800",
+        "timezone": "Asia/Shanghai",
+        "local_time": "2024-03-16T13:50:41+08:00",
+        "local_time_unix": 1710568241,
+        "is_dst": false
+    },
+    "elapsed_ms": 0.81
+}
+```
+
+&emsp;
+
+**地址12**：https://api.ip.sb/geoip <a name="address-1.12"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.ip.sb/geoip
+
+# 通过ip查询信息
+https://api.ip.sb/geoip/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+    "organization": "China Telecom",
+    "longitude": 113.2539,
+    "city": "Guangzhou",
+    "timezone": "Asia/Shanghai",
+    "isp": "China Telecom",
+    "offset": 28800,
+    "region": "Guangdong",
+    "asn": 4134,
+    "asn_organization": "Chinanet",
+    "country": "China",
+    "ip": "121.8.215.106",
+    "latitude": 23.1181,
+    "continent_code": "AS",
+    "country_code": "CN",
+    "region_code": "GD"
 }
 ```
 
@@ -1016,3 +1135,39 @@ https://db-ip.com/demo/home.php?s=121.8.215.106
 ```
 
 &emsp;
+
+<a name="address-4.1"></a>
+
+### 4.更多
+
+1.只返回本机(访客)IP地址，通过curl访问测试 
+
+- 请求类型：GET
+
+```
+curl ifconfig.me
+curl ifconfig.es
+curl icanhazip.com
+curl ipinfo.io/ip
+curl ipecho.net/ip
+curl ident.me
+curl eth0.me
+curl ipaddr.site
+curl ipaddress.sh
+curl l2.io/ip
+curl tnx.nl/ip
+curl wgetip.com
+curl ip.tyk.nu
+curl curlmyip.net
+curl ipcalf.com
+curl checkip.amazonaws.com
+```
+
+示例结果：
+
+```
+121.8.215.106
+```
+
+&emsp;
+
