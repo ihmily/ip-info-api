@@ -32,6 +32,8 @@
 
 [https://api.ip.sb/geoip](#address-1.12)
 
+[https://api.qjqq.cn/api/Local](#address-1.13)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
@@ -641,6 +643,54 @@ https://api.ip.sb/geoip/121.8.215.106
 
 &emsp;
 
+**地址13**：https://api.qjqq.cn/api/Local <a name="address-1.13"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.qjqq.cn/api/Local
+
+# 通过ip查询信息
+https://api.qjqq.cn/api/district?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "code": 200,
+  "data": {
+    "ip": "222.79.44.74",
+    "continent": "亚洲",
+    "country_english": "",
+    "country": "中国",
+    "prov": "福建",
+    "city": "福州",
+    "district": "",
+    "isp": "电信",
+    "lat": "26.075302",
+    "lng": "119.306239",
+    "area_code": "350100",
+    "city_code": "0591",
+    "elevation": "29",
+    "time_zone": "Asia/Shanghai",
+    "weather_station": "CHXX0031",
+    "zip_code": "350000"
+  },
+  "msg": "success",
+  "ip": "222.79.44.74",
+  "time": "2024-04-07 18:38:08",
+  "source": "青桔API：api.qjqq.cn"
+}
+```
+
+&emsp;
+
 <a name="address-2.1"></a>
 
 ### 2.只可查询本机IP 
@@ -1170,4 +1220,3 @@ curl checkip.amazonaws.com
 ```
 
 &emsp;
-
