@@ -64,6 +64,8 @@
 
 [https://db-ip.com/demo/home.php?s=121.8.215.106](#address-3.5) 
 
+[https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106](#address-3.6) 
+
 4.[只需要获取IP](#address-4.1) 
 
 &emsp;
@@ -1183,6 +1185,52 @@ https://db-ip.com/demo/home.php?s=121.8.215.106
     }
 }
 ```
+
+&emsp;
+
+**地址⑥**：https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=21.8.215.106 <a name="address-3.6"></a>
+
+请求类型：GET
+
+请求参数：ip=查询的ip地址
+
+请求示例：
+
+```
+https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "code": "0",
+  "msg": "success",
+  "data": {
+    "continentCN": "亚洲",
+    "countryCN": "中国",
+    "zoneCN": "华南",
+    "provinceCN": "广东",
+    "cityCN": "广州",
+    "countyCN": "增城区",
+    "townCN": "*",
+    "ispCN": "电信",
+    "continentID": 1,
+    "countryID": 48,
+    "zoneID": 5,
+    "provinceID": 3,
+    "cityID": 3001,
+    "countyID": 3001012,
+    "ispID": 26,
+    "townID": 0,
+    "latitude": "23.328300",
+    "longitude": "113.758370",
+    "overseasRegion": false
+  }
+}
+```
+
+当ip参数值为空时，查询的是请求者的地址信息。
 
 &emsp;
 
