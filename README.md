@@ -52,6 +52,8 @@
 
 [https://ipv4.my.ipinfo.app/api/ipDetails.php](#address-2.8) 
 
+[https://g3.letv.com/r?format=1](#address-2.9) 
+
 3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
@@ -900,6 +902,58 @@ https://ipv4.my.ipinfo.app/api/ipDetails.php
     "continentLong": "Asia",
     "flag": "https://my.ipinfo.app/imgs/flags/4x3/sg.svg",
     "country": "Singapore"
+}
+```
+
+&emsp;
+
+**地址⑨**：https://g3.letv.com/r?format=1 <a name="address-2.9"></a>
+
+请求类型：GET
+
+请求参数：format
+
+请求示例：
+
+```
+# format=1 返回json
+https://g3.letv.com/r?format=1
+
+# format=2 返回XML
+https://g3.letv.com/r?format=2
+```
+
+示例结果：
+
+```
+{
+  "ipint": "1957453184",
+  "host": "116.172.93.128",
+  "remote": "116.172.93.128",
+  "ipstart": "1957445632",
+  "ipend": "1957455871",
+  "geo": "CN.30.722.2",
+  "desc": "中国-宁夏-中卫市-联通",
+  "buss": "bussid=6,alv=80,orgqos=5,host=2,port=80",
+  "curtime": 1722063761,
+  "identify": "1731505687:8140",
+  "fixlist": "",
+  "qosfix": "",
+  "prior": "",
+  "manual": "",
+  "perfect": "0",
+  "recommend": "3345,50041,50042,50057,50058,50072,50073,50074,50075,50076",
+  "nodelist": [
+    {
+      "gone": 50041,
+      "name": "中国-北京市-第三方保留ISP-1",
+      "pid": 1,
+      "aid": 5,
+      "isp": 888,
+      "detail": "",
+      "location": "http://play4.cp21.ott.cibntv.net/letvabcdeasktf512K"
+    }
+  ]
 }
 ```
 
