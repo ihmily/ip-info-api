@@ -34,6 +34,10 @@
 
 [https://api.qjqq.cn/api/Local](#address-1.13)
 
+[http://ip-api.com/json/?lang=zh-CN](#address-1.14)
+
+[https://searchplugin.csdn.net/api/v1/ip/get](#address-1.15)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
@@ -53,6 +57,14 @@
 [https://ipv4.my.ipinfo.app/api/ipDetails.php](#address-2.8) 
 
 [https://g3.letv.com/r?format=1](#address-2.9) 
+
+[https://iplark.com/ipstack](#address-2.10) 
+
+[https://qifu-api.baidubce.com/ip/local/geo/v1/district](#address-2.11) 
+
+[https://r.inews.qq.com/api/ip2city](#address-2.12) 
+
+[https://myip.ipip.net/json](#address-2.13) 
 
 3.只可通过IP查询信息
 
@@ -247,7 +259,7 @@ https://api.vore.top/api/IPdata?ip=121.8.215.106
 
 请求类型：GET
 
-请求参数(可选)：你的ip
+请求参数(可选)：路径参数(ip)
 
 请求示例：
 
@@ -287,7 +299,7 @@ https://api.ip.sb/geoip/121.8.215.106
 
 请求类型：GET
 
-请求参数(可选)：ip
+请求参数(可选)：路径参数(ip)
 
 请求示例：
 
@@ -374,7 +386,7 @@ https://realip.cc/?ip=121.8.215.106
 
 请求类型：GET
 
-请求参数(可选)：ip、lang ...
+请求参数(可选)：路径参数(ip)、lang ...
 
 请求示例：
 
@@ -486,7 +498,7 @@ https://ip-api.io/json?ip=121.8.215.106
 
 请求类型：GET
 
-请求参数(可选)：ip
+请求参数(可选)：路径参数(ip)
 
 请求示例：
 
@@ -611,7 +623,7 @@ https://api.ipapi.is/?ip=121.8.215.106
 
 请求类型：GET
 
-请求参数(可选)：ip
+请求参数(可选)：路径参数(ip)
 
 请求示例：
 
@@ -690,6 +702,76 @@ https://api.qjqq.cn/api/district?ip=121.8.215.106
   "ip": "222.79.44.74",
   "time": "2024-04-07 18:38:08",
   "source": "青桔API：api.qjqq.cn"
+}
+```
+
+&emsp;
+
+**地址14**：http://ip-api.com/json/?lang=zh-CN <a name="address-1.14"></a>
+
+请求类型：GET
+
+请求参数(可选)：路径参数(ip)
+
+请求示例：
+
+```
+# 查询本机ip
+http://ip-api.com/json/?lang=zh-CN
+
+# 通过ip查询信息
+http://ip-api.com/json/121.8.215.106?lang=zh-CN
+```
+
+示例结果：
+
+```
+{
+  "status": "success",
+  "country": "中国",
+  "countryCode": "CN",
+  "region": "GD",
+  "regionName": "广东",
+  "city": "广州市",
+  "zip": "",
+  "lat": 23.1181,
+  "lon": 113.2539,
+  "timezone": "Asia/Shanghai",
+  "isp": "Chinanet",
+  "org": "Chinanet GD",
+  "as": "AS4134 CHINANET-BACKBONE",
+  "query": "121.8.215.106"
+}
+```
+
+&emsp;
+
+**地址15**：https://searchplugin.csdn.net/api/v1/ip/get <a name="address-1.15"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+请求示例：
+
+```
+# 查询本机ip
+https://searchplugin.csdn.net/api/v1/ip/get?ip=
+
+# 通过ip查询信息
+https://searchplugin.csdn.net/api/v1/ip/get?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "address": "中国 福建 福州 电信",
+    "ip": "222.79.44.201"
+  }
 }
 ```
 
@@ -954,6 +1036,177 @@ https://g3.letv.com/r?format=2
       "location": "http://play4.cp21.ott.cibntv.net/letvabcdeasktf512K"
     }
   ]
+}
+```
+
+&emsp;
+
+**地址⑩**：https://iplark.com/ipstack <a name="address-2.10"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://iplark.com/ipstack
+```
+
+示例结果：
+
+```
+{
+  "ip": "38.207.137.254",
+  "type": "ipv4",
+  "continent_code": "NA",
+  "continent_name": "北美",
+  "country_code": "US",
+  "country_name": "美国",
+  "region_code": "NY",
+  "region_name": "纽约州",
+  "city": "Manhattan",
+  "zip": "10020",
+  "latitude": 40.7589111328125,
+  "longitude": -73.97901916503906,
+  "msa": "35620",
+  "dma": "501",
+  "radius": null,
+  "ip_routing_type": "fixed",
+  "connection_type": "tx",
+  "location": {
+    "geoname_id": 5125771,
+    "capital": "Washington D.C.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English",
+        "native": "English"
+      }
+    ],
+    "country_flag": "https://assets.ipstack.com/flags/us.svg",
+    "country_flag_emoji": "🇺🇸",
+    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+    "calling_code": "1",
+    "is_eu": false
+  },
+  "time_zone": {
+    "id": "America/New_York",
+    "current_time": "2024-11-04T22:52:33-05:00",
+    "gmt_offset": -18000,
+    "code": "EST",
+    "is_daylight_saving": false
+  }
+}
+```
+
+&emsp;
+
+**地址11**：https://qifu-api.baidubce.com/ip/local/geo/v1/district <a name="address-2.11"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://qifu-api.baidubce.com/ip/local/geo/v1/district
+```
+
+示例结果：
+
+```
+{
+  "code": "Success",
+  "data": {
+    "continent": "亚洲",
+    "country": "中国",
+    "zipcode": "350007",
+    "timezone": "UTC+8",
+    "accuracy": "区县",
+    "owner": "中国电信",
+    "isp": "中国电信",
+    "source": "数据挖掘",
+    "areacode": "CN",
+    "adcode": "350104",
+    "asnumber": "4134",
+    "lat": "26.016978",
+    "lng": "119.323547",
+    "radius": "13.7621",
+    "prov": "福建省",
+    "city": "福州市",
+    "district": "仓山区"
+  },
+  "charge": true,
+  "msg": "查询成功",
+  "ip": "222.79.47.251",
+  "coordsys": "WGS84"
+}
+```
+
+&emsp;
+
+**地址12**：https://r.inews.qq.com/api/ip2city <a name="address-2.12"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://r.inews.qq.com/api/ip2city
+```
+
+示例结果：
+
+```
+{
+  "ret": 0,
+  "errMsg": "",
+  "ip": "38.207.136.53",
+  "provcode": "0",
+  "citycode": "0",
+  "country": "美国",
+  "province": "Texas",
+  "city": "",
+  "district": "",
+  "isp": "",
+  "districtCode": "",
+  "callback": ""
+}
+```
+
+&emsp;
+
+**地址13**：https://myip.ipip.net/json <a name="address-2.13"></a>
+
+请求类型：GET
+
+请求参数：无
+
+请求示例：
+
+```
+https://myip.ipip.net/json
+```
+
+示例结果：
+
+```
+{
+  "ret": "ok",
+  "data": {
+    "ip": "121.8.215.106",
+    "location": [
+      "中国",
+      "广东省",
+      "广州市",
+      "",
+      "电信"
+    ]
+  }
 }
 ```
 
