@@ -94,6 +94,8 @@
 
 请求参数：ip(可选)
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -143,6 +145,8 @@ https://webapi-pc.meitu.com/common/ip_location?ip=121.8.215.106
 
 请求参数：ip(可选)、type
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -174,6 +178,8 @@ https://www.ip.cn/api/index?ip=121.8.215.106&type=1
 请求类型：GET
 
 请求参数(可选)：ip、json
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -211,6 +217,8 @@ https://whois.pconline.com.cn/ipJson.jsp?ip=121.8.215.106&json=true
 请求类型：GET
 
 请求参数(可选)：ip
+
+CORS跨域支持：是
 
 请求示例：
 
@@ -261,6 +269,8 @@ https://api.vore.top/api/IPdata?ip=121.8.215.106
 
 请求参数(可选)：路径参数(ip)
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -301,6 +311,8 @@ https://api.ip.sb/geoip/121.8.215.106
 
 请求参数(可选)：路径参数(ip)
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -338,6 +350,8 @@ https://api.ip2location.io/?ip=121.8.215.106
 请求类型：GET
 
 请求参数(可选)：ip
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -387,6 +401,8 @@ https://realip.cc/?ip=121.8.215.106
 请求类型：GET
 
 请求参数(可选)：路径参数(ip)、lang ...
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -450,6 +466,8 @@ https://ip-api.com/docs/api:json
 
 请求参数(可选)：ip
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -499,6 +517,8 @@ https://ip-api.io/json?ip=121.8.215.106
 请求类型：GET
 
 请求参数(可选)：路径参数(ip)
+
+CORS跨域支持：是
 
 请求示例：
 
@@ -551,6 +571,8 @@ https://ipapi.co/121.8.215.106/json/
 请求类型：GET
 
 请求参数(可选)：ip
+
+CORS跨域支持：是
 
 请求示例：
 
@@ -625,6 +647,8 @@ https://api.ipapi.is/?ip=121.8.215.106
 
 请求参数(可选)：路径参数(ip)
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -664,6 +688,8 @@ https://api.ip.sb/geoip/121.8.215.106
 请求类型：GET
 
 请求参数(可选)：ip
+
+CORS跨域支持：是
 
 请求示例：
 
@@ -713,6 +739,8 @@ https://api.qjqq.cn/api/district?ip=121.8.215.106
 
 请求参数(可选)：路径参数(ip)
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -752,6 +780,8 @@ http://ip-api.com/json/121.8.215.106?lang=zh-CN
 
 请求参数(可选)：ip
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -787,6 +817,8 @@ https://searchplugin.csdn.net/api/v1/ip/get?ip=121.8.215.106
 
 请求参数：无
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -818,6 +850,8 @@ https://ip.useragentinfo.com/json
 
 请求参数：无
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -840,6 +874,8 @@ http://httpbin.org/ip
 
 请求参数：无
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -859,6 +895,8 @@ https://cdid.c-ctrip.com/model-poc2/h
 请求类型：GET
 
 请求参数：otype
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -888,6 +926,8 @@ https://vv.video.qq.com/checktime?otype=ojson
 
 请求参数：无
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -914,6 +954,8 @@ https://api.uomg.com/api/visitor.info?skey=1
 
 请求参数：无
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -939,6 +981,8 @@ https://test.ipw.cn/api/ip/myip?json
 请求类型：GET
 
 请求参数（可选）：format
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -968,6 +1012,8 @@ https://api64.ipify.org/?format=json
 
 请求参数：无
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -994,6 +1040,8 @@ https://ipv4.my.ipinfo.app/api/ipDetails.php
 请求类型：GET
 
 请求参数：format
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -1046,6 +1094,8 @@ https://g3.letv.com/r?format=2
 请求类型：GET
 
 请求参数：无
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -1108,6 +1158,8 @@ https://iplark.com/ipstack
 
 请求参数：无
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -1153,6 +1205,8 @@ https://qifu-api.baidubce.com/ip/local/geo/v1/district
 
 请求参数：无
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -1185,6 +1239,8 @@ https://r.inews.qq.com/api/ip2city
 请求类型：GET
 
 请求参数：无
+
+CORS跨域支持：是
 
 请求示例：
 
@@ -1221,6 +1277,8 @@ https://myip.ipip.net/json
 请求类型：GET
 
 请求参数：query
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -1265,6 +1323,8 @@ https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=121.8.215.
 
 请求参数：你的ip
 
+CORS跨域支持：是
+
 请求示例：
 
 ```
@@ -1300,6 +1360,8 @@ https://get.geojs.io/v1/ip/geo/121.8.215.106.json
 请求类型：GET
 
 请求参数：你的ip
+
+CORS跨域支持：是
 
 请求示例：
 
@@ -1359,6 +1421,8 @@ https://ipinfo.io/widget/demo/121.8.215.106
 请求类型：GET
 
 请求参数：ip
+
+CORS跨域支持：否
 
 请求示例：
 
@@ -1438,6 +1502,8 @@ https://ipapi.com/ip_api.php?ip=121.8.215.106
 
 请求参数：s=你的ip
 
+CORS跨域支持：否
+
 请求示例：
 
 ```
@@ -1500,6 +1566,8 @@ https://db-ip.com/demo/home.php?s=121.8.215.106
 请求类型：GET
 
 请求参数：ip=查询的ip地址
+
+CORS跨域支持：是
 
 请求示例：
 
