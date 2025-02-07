@@ -8,7 +8,7 @@
 
 1.可查询本机IP和通过IP查询信息
 
-[https://webapi-pc.meitu.com/common/ip_location](#address-1.1) 
+[https://webapi-pc.meitu.com/common/ip_location](#address-1.1) **(已失效)**
 
 [https://www.ip.cn/api/index?ip=&type=0](#address-1.2) 
 
@@ -66,6 +66,16 @@
 
 [https://myip.ipip.net/json](#address-2.13) 
 
+[https://ifconfig.me/all.json](#address-2.14) 
+
+https://geolocation-db.com/json(#address-2.15) 
+
+https://api.myip.com(#address-2.16) 
+
+https://ipapi.co/json(#address-2.17) 
+
+https://wtfismyip.com/json(#address-2.18) 
+
 3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
@@ -87,8 +97,7 @@
 
 ### 1.可查询本机IP和通过IP查询 
 
-
-**地址①**：https://webapi-pc.meitu.com/common/ip_location?ip=
+**地址①**：https://webapi-pc.meitu.com/common/ip_location?ip=  **(已失效)**
 
 请求类型：GET
 
@@ -1268,6 +1277,211 @@ https://myip.ipip.net/json
 
 &emsp;
 
+**地址14**：https://ifconfig.me/all.json <a name="address-2.14"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://ifconfig.me/all.json
+```
+
+示例结果：
+
+```
+{
+  "ip_addr": "121.8.215.106",
+  "remote_host": "unavailable",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+  "port": "59532",
+  "language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+  "method": "GET",
+  "encoding": "gzip, deflate, br",
+  "mime": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+  "via": "1.1 google",
+  "forwarded": "121.8.215.106,34.160.111.145"
+}
+```
+
+&emsp;
+
+**地址15**：https://geolocation-db.com/json <a name="address-2.15"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://geolocation-db.com/json
+```
+
+示例结果：
+
+```
+{
+  "country_code": "SG",
+  "country_name": "Singapore",
+  "city": "Singapore",
+  "postal": null,
+  "latitude": 1.2931,
+  "longitude": 103.8558,
+  "IPv4": "121.8.215.106",
+  "state": "Central Singapore Community Development Council"
+}
+```
+
+&emsp;
+
+**地址16**：https://api.myip.com <a name="address-2.16"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+https://api.myip.com
+```
+
+示例结果：
+
+```
+{
+  "ip": "8.210.158.178",
+  "country": "Hong Kong",
+  "cc": "HK"
+}
+```
+
+&emsp;
+
+**地址17**：https://ipapi.co/json <a name="address-2.17"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://ipapi.co/json
+```
+
+示例结果：
+
+```
+{
+  "ip": "8.210.158.178",
+  "network": "8.210.156.0/22",
+  "version": "IPv4",
+  "city": "Hong Kong",
+  "region": null,
+  "region_code": null,
+  "country": "HK",
+  "country_name": "Hong Kong",
+  "country_code": "HK",
+  "country_code_iso3": "HKG",
+  "country_capital": "Hong Kong",
+  "country_tld": ".hk",
+  "continent_code": "AS",
+  "in_eu": false,
+  "postal": null,
+  "latitude": 22.2842,
+  "longitude": 114.1759,
+  "timezone": "Asia/Hong_Kong",
+  "utc_offset": "+0800",
+  "country_calling_code": "+852",
+  "currency": "HKD",
+  "currency_name": "Dollar",
+  "languages": "zh-HK,yue,zh,en",
+  "country_area": 1092,
+  "country_population": 7451000,
+  "asn": "AS45102",
+  "org": "Alibaba US Technology Co., Ltd."
+}
+```
+
+&emsp;
+
+**地址18**：https://wtfismyip.com/json <a name="address-2.18"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://wtfismyip.com/json
+```
+
+示例结果：
+
+```
+{
+  "YourFuckingIPAddress": "8.210.158.178",
+  "YourFuckingLocation": "Hong Kong, Hong Kong",
+  "YourFuckingHostname": "8.210.158.178",
+  "YourFuckingISP": "Alibaba (US) Technology Co., Ltd.",
+  "YourFuckingTorExit": false,
+  "YourFuckingCity": "Hong Kong",
+  "YourFuckingCountry": "Hong Kong",
+  "YourFuckingCountryCode": "HK"
+}
+```
+
+&emsp;
+
+**地址19**：https://api.ipbase.com/v1/json <a name="address-2.19"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://api.ipbase.com/v1/json
+```
+
+示例结果：
+
+```
+{
+  "ip": "8.210.158.178",
+  "country_code": "HK",
+  "country_name": "Hong Kong S.A.R.",
+  "region_code": null,
+  "region_name": "Central and Western",
+  "city": "Hong Kong",
+  "zip_code": "-",
+  "time_zone": "Asia/Hong_Kong",
+  "latitude": 22.285520553588867,
+  "longitude": 114.1576919555664,
+  "metro_code": 0
+}
+```
+
+&emsp;
+
 <a name="address-3.1"></a>
 
 ### 3.只可通过IP查询 
@@ -1634,6 +1848,7 @@ curl ip.tyk.nu
 curl curlmyip.net
 curl ipcalf.com
 curl checkip.amazonaws.com
+curl https://myexternalip.com/json
 ```
 
 示例结果：
