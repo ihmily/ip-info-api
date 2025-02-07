@@ -1,6 +1,6 @@
 # 说明
 
-该存储库收集了各种免费的IP查询API，无需配置任何key直接可访问，使大家能够快速访问IP信息，如地理位置、ISP详细信息和网络类型。请根据自己的需求选择合适的API，持续更新中，欢迎star
+该存储库收集了各种免费的IP查询API，无需配置任何key直接可访问，使大家能够快速访问IP信息，如地理位置、ISP详细信息和网络类型。请根据自己的需求选择合适的API，持续更新中，欢迎star和pr
 
 &emsp;
 
@@ -68,13 +68,15 @@
 
 [https://ifconfig.me/all.json](#address-2.14) 
 
-https://geolocation-db.com/json(#address-2.15) 
+[https://geolocation-db.com/json](#address-2.15) 
 
-https://api.myip.com(#address-2.16) 
+[https://api.myip.com](#address-2.16) 
 
-https://ipapi.co/json(#address-2.17) 
+[https://ipapi.co/json](#address-2.17) 
 
-https://wtfismyip.com/json(#address-2.18) 
+[https://wtfismyip.com/json](#address-2.18) 
+
+[https://api.ipquery.io/?format=json](#address-2.19) 
 
 3.只可通过IP查询信息
 
@@ -95,7 +97,7 @@ https://wtfismyip.com/json(#address-2.18)
 &emsp;
 <a name="address-1.1"></a>
 
-### 1.可查询本机IP和通过IP查询 
+### 1.查询本机IP或通过IP反查
 
 **地址①**：https://webapi-pc.meitu.com/common/ip_location?ip=  **(已失效)**
 
@@ -818,7 +820,7 @@ https://searchplugin.csdn.net/api/v1/ip/get?ip=121.8.215.106
 
 <a name="address-2.1"></a>
 
-### 2.只可查询本机IP 
+### 2.仅查询本机IP信息
 
 **地址①**：https://ip.useragentinfo.com/json
 
@@ -1477,6 +1479,54 @@ https://api.ipbase.com/v1/json
   "latitude": 22.285520553588867,
   "longitude": 114.1576919555664,
   "metro_code": 0
+}
+```
+
+&emsp;
+
+**地址20**：https://api.ipquery.io/?format=json <a name="address-2.20"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://api.ipquery.io/?format=json
+```
+
+示例结果：
+
+```
+{
+  "ip": "8.210.158.178",
+  "isp": {
+    "asn": "AS45102",
+    "org": "Alibaba (US) Technology Co., Ltd.",
+    "isp": "Alibaba (US) Technology Co., Ltd."
+  },
+  "location": {
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "city": "Hong Kong",
+    "state": "Kowloon",
+    "zipcode": "999077",
+    "latitude": 22.333551599813337,
+    "longitude": 114.16016200912814,
+    "timezone": "Asia/Hong_Kong",
+    "localtime": "2025-02-07T03:42:03"
+  },
+  "risk": {
+    "is_mobile": false,
+    "is_vpn": false,
+    "is_tor": false,
+    "is_proxy": false,
+    "is_datacenter": true,
+    "risk_score": 0
+  }
 }
 ```
 
