@@ -38,6 +38,12 @@
 
 [https://searchplugin.csdn.net/api/v1/ip/get](#address-1.15)
 
+[https://api.db-ip.com/v2/free/self](#address-1.16)
+
+[https://freeipapi.com/api/json](#address-1.17)
+
+[https://ipwhois.app/json/?format=json](#address-1.18)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1) 
@@ -76,7 +82,13 @@
 
 [https://wtfismyip.com/json](#address-2.18) 
 
-[https://api.ipquery.io/?format=json](#address-2.19) 
+[https://api.ipbase.com/v1/json](#address-2.19) 
+
+[https://api.ipquery.io/?format=json](#address-2.20)
+
+[https://1.1.1.1/cdn-cgi/trace](#address-2.21) 
+
+[https://check.torproject.org/api/ip](#address-2.22) 
 
 3.只可通过IP查询信息
 
@@ -818,6 +830,149 @@ https://searchplugin.csdn.net/api/v1/ip/get?ip=121.8.215.106
 
 &emsp;
 
+**地址16**：https://api.db-ip.com/v2/free/self <a name="address-1.16"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.db-ip.com/v2/free/self
+
+# 通过ip查询信息
+https://api.db-ip.com/v2/free/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ipAddress": "121.8.215.106",
+  "continentCode": "AS",
+  "continentName": "Asia",
+  "countryCode": "CN",
+  "countryName": "China",
+  "stateProv": "Guangdong",
+  "city": "Guangzhou"
+}
+```
+
+&emsp;
+
+**地址17**：https://freeipapi.com/api/json <a name="address-1.17"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 查询本机ip
+https://freeipapi.com/api/json
+
+# 通过ip查询信息
+https://freeipapi.com/api/json/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ipVersion": 4,
+  "ipAddress": "121.8.215.106",
+  "latitude": 23.127361,
+  "longitude": 113.264572,
+  "countryName": "China",
+  "countryCode": "CN",
+  "timeZone": "+08:00",
+  "zipCode": "510140",
+  "cityName": "Guangzhou",
+  "regionName": "Guangdong",
+  "isProxy": true,
+  "continent": "Asia",
+  "continentCode": "AS",
+  "currency": {
+    "code": "CNY",
+    "name": "Yuan Renminbi"
+  },
+  "language": "Mandarin",
+  "timeZones": [
+    "Asia/Shanghai",
+    "Asia/Urumqi"
+  ],
+  "tlds": [
+    ".cn",
+    ".公司",
+    ".网络"
+  ]
+}
+```
+
+&emsp;
+
+**地址18**：https://ipwhois.app/json/?format=json <a name="address-1.18"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 查询本机ip
+https://ipwhois.app/json/?format=json
+
+# 通过ip查询信息
+https://ipwhois.app/json/121.8.215.106?format=json
+```
+
+示例结果：
+
+```
+{
+  "ip": "121.8.215.106",
+  "success": true,
+  "type": "IPv4",
+  "continent": "Asia",
+  "continent_code": "AS",
+  "country": "China",
+  "country_code": "CN",
+  "country_flag": "https://cdn.ipwhois.io/flags/cn.svg",
+  "country_capital": "Beijing",
+  "country_phone": "+86",
+  "country_neighbours": "AF,BT,HK,IN,KG,KP,KZ,LA,MM,MN,MO,NP,PK,RU,TJ,VN",
+  "region": "Guangdong Province",
+  "city": "Guangzhou",
+  "latitude": 23.12911,
+  "longitude": 113.264385,
+  "asn": "AS4134",
+  "org": "Chinanet Guangdong Province Network",
+  "isp": "No. 1,jin rong Street",
+  "timezone": "Asia/Shanghai",
+  "timezone_name": "CST",
+  "timezone_dstOffset": 0,
+  "timezone_gmtOffset": 28800,
+  "timezone_gmt": "+08:00",
+  "currency": "Chinese Yuan",
+  "currency_code": "CNY",
+  "currency_symbol": "¥",
+  "currency_rates": 7.234,
+  "currency_plural": "Chinese yuan"
+}
+```
+
+&emsp;
+
 <a name="address-2.1"></a>
 
 ### 2.仅查询本机IP信息
@@ -1527,6 +1682,68 @@ https://api.ipquery.io/?format=json
     "is_datacenter": true,
     "risk_score": 0
   }
+}
+```
+
+&emsp;
+
+**地址21**：https://1.1.1.1/cdn-cgi/trace <a name="address-2.21"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+https://1.1.1.1/cdn-cgi/trace
+```
+
+示例结果：
+
+```
+fl=382f226
+h=1.1.1.1
+ip=121.8.215.106
+ts=1741448917.615
+visit_scheme=https
+uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0
+colo=NRT
+sliver=none
+http=http/2
+loc=JP
+tls=TLSv1.3
+sni=off
+warp=off
+gateway=off
+rbi=off
+kex=X25519MLKEM768
+```
+
+&emsp;
+
+**地址22**：https://check.torproject.org/api/ip <a name="address-2.22"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+https://check.torproject.org/api/ip
+```
+
+示例结果：
+
+```
+{
+  "IsTor": false,
+  "IP": "121.8.215.106"
 }
 ```
 
