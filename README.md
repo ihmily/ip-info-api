@@ -10,7 +10,7 @@
 
 [https://webapi-pc.meitu.com/common/ip_location](#address-1.1) **(已失效)**
 
-[https://www.ip.cn/api/index?ip=&type=0](#address-1.2) 
+[https://www.ip.cn/api/index?ip=&type=0](#address-1.2)  **(已失效)**
 
 [https://whois.pconline.com.cn/ipJson.jsp?ip=&json=true](#address-1.3) 
 
@@ -104,7 +104,9 @@
 
 [https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106](#address-3.6) 
 
-4.[只需要获取IP](#address-4.1) 
+4.[根据地区反查IP信息](#address-4.1) 
+
+5.[只需要获取IP](#address-5.1) 
 
 &emsp;
 <a name="address-1.1"></a>
@@ -162,7 +164,7 @@ https://webapi-pc.meitu.com/common/ip_location?ip=121.8.215.106
 
 &emsp;
 
-**地址②**：https://www.ip.cn/api/index?ip=&type=0 <a name="address-1.2"></a>
+**地址②**：https://www.ip.cn/api/index?ip=&type=0 <a name="address-1.2"></a> **(已失效)**
 
 请求类型：GET
 
@@ -2092,7 +2094,69 @@ https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106
 
 <a name="address-4.1"></a>
 
-### 4.更多
+### 4.根据地区反查IP信息
+
+根据地区名称或者经纬度查询IP信息
+
+**地址①**：https://nominatim.openstreetmap.org/search?format=json&q= 
+
+请求类型：GET
+
+请求参数：q（位置) 、lat(纬度) 、lon(经度)
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 通过地区查询ip信息
+https://nominatim.openstreetmap.org/search?format=json&q=广东深圳南山区
+
+# 通过经纬度查询ip信息
+https://nominatim.openstreetmap.org/search?format=json&lat=22.5317523&lon=113.9734125109087
+```
+
+示例结果：
+
+```
+{
+  "place_id": 298782202,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 741753433,
+  "lat": "37.42202505",
+  "lon": "-122.08407788511707",
+  "class": "leisure",
+  "type": "outdoor_seating",
+  "place_rank": 30,
+  "importance": 0.00006277943083843774,
+  "addresstype": "leisure",
+  "name": "",
+  "display_name": "Amphitheatre Parkway, 山景城, Santa Clara County, 加利福尼亚州/加利福尼亞州, 94043, 美利坚合众国/美利堅合眾國",
+  "address": {
+    "road": "Amphitheatre Parkway",
+    "city": "山景城",
+    "county": "Santa Clara County",
+    "state": "加利福尼亚州/加利福尼亞州",
+    "ISO3166-2-lvl4": "US-CA",
+    "postcode": "94043",
+    "country": "美利坚合众国/美利堅合眾國",
+    "country_code": "us"
+  },
+  "boundingbox": [
+    "37.4219599",
+    "37.4221426",
+    "-122.0842118",
+    "-122.0839386"
+  ]
+}
+```
+
+&emsp;
+
+<a name="address-5.1"></a>
+
+### 5.更多
 
 1.只返回本机(访客)IP地址，通过curl访问测试 
 
