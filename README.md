@@ -91,6 +91,8 @@
 [https://check.torproject.org/api/ip](#address-2.22) 
 
 [https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo](#address-2.23)
+[https://i.news.qq.com/api/ip2city](#address-2.24)
+[https://ipv4.gdt.qq.com/get_client_ip](#address-2.25)
 
 3.只可通过IP查询信息
 
@@ -1784,6 +1786,67 @@ https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo
     "longitude":"116.397459" // 精确到同城
   }
 }
+```
+
+&emsp;
+
+**地址24**: https://i.news.qq.com/api/ip2city <a name="address-2.24"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+https://i.news.qq.com/api/ip2city
+```
+
+示例结果： 
+
+```
+{
+    "ret": 0,
+    "errMsg": "",
+    "ip": "223.199.183.154",
+    "provcode": "21",
+    "citycode": "233",
+    "country": "中国",
+    "province": "海南省",
+    "city": "海口市",
+    "district": "",
+    "isp": "",
+    "districtCode": "460100",
+    "callback": ""
+}
+
+```
+
+
+&emsp;
+
+**地址25**: https://ipv4.gdt.qq.com/get_client_ip <a name="address-2.25"></a>
+
+请求类型：GET
+
+请求参数：无
+
+CORS跨域支持：否
+
+返回类型：  `text/plain`
+
+请求示例：
+
+```
+https://ipv4.gdt.qq.com/get_client_ip
+```
+
+示例结果： 
+
+```
+223.199.183.154
 ```
 
 &emsp;
