@@ -66,7 +66,7 @@
 
 [https://iplark.com/ipstack](#address-2.10) 
 
-[https://qifu-api.baidubce.com/ip/local/geo/v1/district](#address-2.11) 
+[https://qifu-api.baidubce.com/ip/local/geo/v1/district](#address-2.11)   **(已失效)**
 
 [https://r.inews.qq.com/api/ip2city](#address-2.12) 
 
@@ -1326,7 +1326,7 @@ https://iplark.com/ipstack
 
 &emsp;
 
-**地址11**：https://qifu-api.baidubce.com/ip/local/geo/v1/district <a name="address-2.11"></a>
+**地址11**：https://qifu-api.baidubce.com/ip/local/geo/v1/district <a name="address-2.11"></a>  **(已失效)**
 
 请求类型：GET
 
