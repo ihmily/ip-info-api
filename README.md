@@ -2282,6 +2282,8 @@ curl curlmyip.net
 curl ipcalf.com
 curl checkip.amazonaws.com
 curl https://myexternalip.com/json
+curl https://ipv4.getip.cc
+curl http://ipv6.getip.cc
 ```
 
 示例结果：
