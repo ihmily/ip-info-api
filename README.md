@@ -14,7 +14,7 @@
 
 [https://whois.pconline.com.cn/ipJson.jsp?ip=&json=true](#address-1.3) 
 
-[https://api.vore.top/api/IPdata?ip=](#address-1.4) 
+[https://api.vore.top/api/IPdata?ip=](#address-1.4)   **(已失效)**
 
 [https://api.ip.sb/geoip/](#address-1.5) 
 
@@ -24,7 +24,7 @@
 
 [http://demo.ip-api.com/json/?lang=zh-CN](#address-1.8)
 
-[https://ip-api.io/json](#address-1.9)
+[https://ip-api.io/json](#address-1.9)  **(已失效)**
 
 [https://ipapi.co/json/](#address-1.10)
 
@@ -54,7 +54,7 @@
 
 [https://vv.video.qq.com/checktime?otype=ojson](#address-2.4) 
 
-[https://api.uomg.com/api/visitor.info?skey=1](#address-2.5) 
+[https://api.uomg.com/api/visitor.info?skey=1](#address-2.5)   **(已失效)**
 
 [https://test.ipw.cn/api/ip/myip?json](#address-2.6) 
 
@@ -243,7 +243,7 @@ https://whois.pconline.com.cn/ipJson.jsp?ip=121.8.215.106&json=true
 
 &emsp;
 
-**地址④**：https://api.vore.top/api/IPdata?ip= <a name="address-1.4"></a>
+**地址④**：https://api.vore.top/api/IPdata?ip= <a name="address-1.4"></a>  **(已失效)**
 
 请求类型：GET
 
@@ -450,13 +450,13 @@ ru：Русский (Russian) Русский （俄语）
 # 注意是http ！！！
 
 # 查询本机ip
-http://demo.ip-api.com/json/?fields=66842623&lang=zh-CN
+http://demo.com/json/?fields=66842623&lang=zh-CN
 
 # 通过ip查询信息
-http://demo.ip-api.com/json/121.8.215.106?fields=66842623&lang=zh-CN
+http://demo.com/json/121.8.215.106?fields=66842623&lang=zh-CN
 
 API docs：
-https://ip-api.com/docs/api:json
+https://com/docs/api:json
 ```
 
 示例结果：
@@ -491,7 +491,7 @@ https://ip-api.com/docs/api:json
 
 &emsp;
 
-**地址⑨**：https://ip-api.io/json <a name="address-1.9"></a>
+**地址⑨**：https://ip-api.io/json <a name="address-1.9"></a>  **(已失效)**
 
 请求类型：GET
 
@@ -1094,7 +1094,7 @@ https://vv.video.qq.com/checktime?otype=ojson
 
 &emsp;
 
-**地址⑤**：https://api.uomg.com/api/visitor.info?skey=1 <a name="address-2.5"></a>
+**地址⑤**：https://api.uomg.com/api/visitor.info?skey=1 <a name="address-2.5"></a>  **(已失效)**
 
 请求类型：GET
 
