@@ -44,6 +44,8 @@
 
 [https://ipwhois.app/json/?format=json](#address-1.18)
 
+[https://ip.nc.gy/json](#address-1.19)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1)  **(已失效)**
@@ -976,6 +978,122 @@ https://ipwhois.app/json/121.8.215.106?format=json
   "currency_symbol": "¥",
   "currency_rates": 7.234,
   "currency_plural": "Chinese yuan"
+}
+```
+
+&emsp;
+
+**地址19**：https://ip.nc.gy/json <a name="address-1.19"></a>
+
+请求类型：GET
+
+请求参数(可选)：ip
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 查询本机ip
+https://ip.nc.gy/json
+
+# 通过ip查询信息
+https://ip.nc.gy/json?ip=45.77.77.77
+```
+
+示例结果：
+
+```
+{
+  "ip": "45.77.77.77",
+  "city": {
+    "geoname_id": 5102713,
+    "names": {
+      "en": "Piscataway"
+    }
+  },
+  "continent": {
+    "code": "NA",
+    "geoname_id": 6255149,
+    "names": {
+      "de": "Nordamerika",
+      "en": "North America",
+      "es": "Norteamérica",
+      "fr": "Amérique du Nord",
+      "ja": "北アメリカ",
+      "pt-BR": "América do Norte",
+      "ru": "Северная Америка",
+      "zh-CN": "北美洲"
+    }
+  },
+  "country": {
+    "geoname_id": 6252001,
+    "iso_code": "US",
+    "names": {
+      "de": "USA",
+      "en": "United States",
+      "es": "Estados Unidos",
+      "fr": "États-Unis",
+      "ja": "アメリカ",
+      "pt-BR": "EUA",
+      "ru": "США",
+      "zh-CN": "美国"
+    }
+  },
+  "location": {
+    "accuracy_radius": 20,
+    "latitude": 40.5511,
+    "longitude": -74.4606,
+    "metro_code": 501,
+    "time_zone": "America/New_York"
+  },
+  "postal": {
+    "code": "08854"
+  },
+  "registered_country": {
+    "geoname_id": 6252001,
+    "iso_code": "US",
+    "names": {
+      "de": "USA",
+      "en": "United States",
+      "es": "Estados Unidos",
+      "fr": "États-Unis",
+      "ja": "アメリカ",
+      "pt-BR": "EUA",
+      "ru": "США",
+      "zh-CN": "美国"
+    }
+  },
+  "subdivisions": [
+    {
+      "geoname_id": 5101760,
+      "iso_code": "NJ",
+      "names": {
+        "de": "New Jersey",
+        "en": "New Jersey",
+        "es": "Nueva Jersey",
+        "fr": "New Jersey",
+        "ja": "ニュージャージー州",
+        "pt-BR": "Nova Jérsei",
+        "ru": "Нью-Джерси",
+        "zh-CN": "新泽西州"
+      }
+    }
+  ],
+  "asn": {
+    "autonomous_system_number": 20473,
+    "autonomous_system_organization": "The Constant Company, LLC",
+    "as_domain": "constant.com"
+  },
+  "proxy": {
+    "is_proxy": true,
+    "is_vpn": false,
+    "is_tor": false,
+    "is_hosting": true,
+    "is_cdn": false,
+    "is_school": false,
+    "is_anonymous": true
+  }
 }
 ```
 
@@ -2284,6 +2402,7 @@ curl checkip.amazonaws.com
 curl https://myexternalip.com/json
 curl https://ipv4.getip.cc
 curl http://ipv6.getip.cc
+curl ip.nc.gy
 ```
 
 示例结果：
