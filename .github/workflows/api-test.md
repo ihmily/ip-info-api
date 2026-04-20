@@ -31,7 +31,8 @@ CI运行后会：
 
 ```bash
 # 1. 修改代码后，先commit本地改动
-git add -A && git commit -m "your message"
+git add -A
+git commit -m "your message"
 
 # 2. 拉取远程最新代码并合并
 git pull origin main --rebase

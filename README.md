@@ -1,7 +1,9 @@
 <!-- API_STATUS_START -->
 ## 📊 API状态监控
 
-> 由 GitHub Actions 自动更新于: 2026-04-20 14:10
+> Updated at UTC+0: 2026-04-20 14:11
+
+> 由 GitHub Actions 自动更新于 (UTC+8): 2026-04-20 14:11
 
 > 测试IP: 117.30.120.138, 1.1.1.1, 8.8.8.8
 

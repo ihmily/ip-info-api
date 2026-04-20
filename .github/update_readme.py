@@ -115,7 +115,8 @@ def generate_readme_table() -> str:
     
     output_lines = []
     output_lines.append("## 📊 API状态监控\n")
-    output_lines.append(f"> 由 GitHub Actions 自动更新于: {update_time}\n")
+    output_lines.append(f"> Updated at UTC+0: {update_time}\n")
+    output_lines.append(f"> 由 GitHub Actions 自动更新于 (UTC+8): {update_time}\n")
     output_lines.append(f"> 测试IP: {test_ips_str}\n")
     output_lines.append("### 支持查询指定IP的API\n")
     output_lines.append("| API | 状态 | 平均响应 | 成功率 | 详情 |")
