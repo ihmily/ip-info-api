@@ -2,19 +2,19 @@
   "name": "myip.ipip.net",
   "url": "https://myip.ipip.net/json",
   "status": "success",
-  "elapsed_ms": 68.95,
+  "elapsed_ms": 162.98,
   "remark": "",
   "supports_ip": false,
   "result": {
     "ret": "ok",
     "data": {
-      "ip": "112.5.70.126",
+      "ip": "64.236.145.84",
       "location": [
-        "中国",
-        "福建",
-        "厦门",
+        "美国",
+        "伊利诺伊州",
+        "芝加哥",
         "",
-        "移动"
+        "microsoft.com"
       ]
     }
   },

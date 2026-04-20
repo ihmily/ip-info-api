@@ -2,7 +2,7 @@
   "name": "realip.cc",
   "url": "https://realip.cc/?ip=117.30.120.138",
   "status": "success",
-  "elapsed_ms": 1069.7,
+  "elapsed_ms": 130.94,
   "remark": "",
   "supports_ip": true,
   "result": {
@@ -23,7 +23,7 @@
     "blog": "https://www.bboy.app",
     "tg_group": "https://t.me/bboyapp",
     "data_updatetime": 20260331,
-    "count": 808405758
+    "count": 808451103
   },
   "error": null,
   "test_ip": "117.30.120.138"

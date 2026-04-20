@@ -1,4 +1,60 @@
 <!-- API_STATUS_START -->
+## 📊 API状态监控
+
+> 自动更新于: output
+
+### 支持查询指定IP的API
+
+| API | 状态 | 平均响应 | 成功率 | 详情 |
+|-----|------|---------|--------|------|
+| baidu.opendata | ✅ | 668.13ms | 3/3 | [📁 查看](output/by_api/baidu.opendata/) |
+| db-ip.com | ✅ | 76.58ms | 3/3 | [📁 查看](output/by_api/db-ip.com/) |
+| demo.ip-api.com | ✅ | 24.86ms | 3/3 | [📁 查看](output/by_api/demo.ip-api.com/) |
+| freeipapi.com | ✅ | 363.22ms | 3/3 | [📁 查看](output/by_api/freeipapi.com/) |
+| geojs.io | ✅ | 50.18ms | 3/3 | [📁 查看](output/by_api/geojs.io/) |
+| ip-api.com | ✅ | 30.5ms | 3/3 | [📁 查看](output/by_api/ip-api.com/) |
+| ip.nc.gy | ✅ | 103.73ms | 3/3 | [📁 查看](output/by_api/ip.nc.gy/) |
+| ip.sb | ✅ | 255.53ms | 3/3 | [📁 查看](output/by_api/ip.sb/) |
+| ip2location.io | ✅ | 54.07ms | 3/3 | [📁 查看](output/by_api/ip2location.io/) |
+| ipapi.co | ✅ | 106.21ms | 3/3 | [📁 查看](output/by_api/ipapi.co/) |
+| ipapi.is | ✅ | 81.05ms | 3/3 | [📁 查看](output/by_api/ipapi.is/) |
+| ipwhois.app | ✅ | 39.18ms | 3/3 | [📁 查看](output/by_api/ipwhois.app/) |
+| pconline | ✅ | 853.8ms | 3/3 | [📁 查看](output/by_api/pconline/) |
+| realip.cc | ✅ | 115.62ms | 3/3 | [📁 查看](output/by_api/realip.cc/) |
+
+### 仅查询本机IP的API
+
+| API | 状态 | 平均响应 | 成功率 | 详情 |
+|-----|------|---------|--------|------|
+| api.ipify.org | ✅ | 51.81ms | 3/3 | [📁 查看](output/by_api/api.ipify.org/) |
+| api.myip.com | ✅ | 187.3ms | 3/3 | [📁 查看](output/by_api/api.myip.com/) |
+| bilibili | ❌ | - | 0/3 | [📁 查看](output/by_api/bilibili/) |
+| cdid.ctrip | ✅ | 470.45ms | 3/3 | [📁 查看](output/by_api/cdid.ctrip/) |
+| cip.cc | ⚠️ | 1949.13ms | 2/3 | [📁 查看](output/by_api/cip.cc/) |
+| cloudflare.trace | ✅ | 9.03ms | 3/3 | [📁 查看](output/by_api/cloudflare.trace/) |
+| g3.letv | ✅ | 667.15ms | 3/3 | [📁 查看](output/by_api/g3.letv/) |
+| gdt.qq | ✅ | 807.27ms | 3/3 | [📁 查看](output/by_api/gdt.qq/) |
+| geolocation-db.com | ✅ | 469.87ms | 3/3 | [📁 查看](output/by_api/geolocation-db.com/) |
+| httpbin.org | ✅ | 39.08ms | 3/3 | [📁 查看](output/by_api/httpbin.org/) |
+| ifconfig.me | ✅ | 142.95ms | 3/3 | [📁 查看](output/by_api/ifconfig.me/) |
+| ipbase.com | ✅ | 305.5ms | 3/3 | [📁 查看](output/by_api/ipbase.com/) |
+| ipquery.io | ✅ | 227.68ms | 3/3 | [📁 查看](output/by_api/ipquery.io/) |
+| my.ipinfo.app | ❌ | - | 0/3 | [📁 查看](output/by_api/my.ipinfo.app/) |
+| myip.ipip.net | ✅ | 317.9ms | 3/3 | [📁 查看](output/by_api/myip.ipip.net/) |
+| news.qq | ✅ | 582.68ms | 3/3 | [📁 查看](output/by_api/news.qq/) |
+| qq.inews | ✅ | 513.06ms | 3/3 | [📁 查看](output/by_api/qq.inews/) |
+| qq.video | ✅ | 584.69ms | 3/3 | [📁 查看](output/by_api/qq.video/) |
+| test.ipw.cn | ❌ | - | 0/3 | [📁 查看](output/by_api/test.ipw.cn/) |
+| torproject | ✅ | 420.84ms | 3/3 | [📁 查看](output/by_api/torproject/) |
+| wtfismyip.com | ✅ | 362.08ms | 3/3 | [📁 查看](output/by_api/wtfismyip.com/) |
+
+### 仅支持查询指定IP的API
+
+| API | 状态 | 平均响应 | 成功率 | 详情 |
+|-----|------|---------|--------|------|
+| db-ip.demo | ✅ | 270.48ms | 3/3 | [📁 查看](output/by_api/db-ip.demo/) |
+| ipinfo.io | ✅ | 230.27ms | 3/3 | [📁 查看](output/by_api/ipinfo.io/) |
+| iqiyi.mesh | ✅ | 581.61ms | 3/3 | [📁 查看](output/by_api/iqiyi.mesh/) |
 <!-- API_STATUS_END -->
 
 # 说明

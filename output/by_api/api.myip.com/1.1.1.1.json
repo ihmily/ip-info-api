@@ -1,11 +1,13 @@
 {
   "name": "api.myip.com",
   "url": "https://api.myip.com",
-  "status": "timeout",
-  "elapsed_ms": 10962.47,
+  "status": "success",
+  "elapsed_ms": 30.57,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "raw": "{\"ip\":\"64.236.145.84\",\"country\":\"United States\",\"cc\":\"US\"}"
+  },
+  "error": null,
   "test_ip": "1.1.1.1"
 }

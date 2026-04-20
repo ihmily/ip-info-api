@@ -1,13 +1,11 @@
 {
   "name": "cip.cc",
   "url": "http://www.cip.cc/8.8.8.8",
-  "status": "success",
-  "elapsed_ms": 31.15,
+  "status": "timeout",
+  "elapsed_ms": 10432.07,
   "remark": "返回文本格式",
   "supports_ip": true,
-  "result": {
-    "raw": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n        <head>\n                <title>互连协议查询 - IP查询 - 查IP(www.cip.cc)</title>\n                <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n                <meta name=\"description\" content=\"查IP(www.cip.cc)网站, 提供免费的IP查询服务,命令行查询IP, 并且支持'PC网站, 手机网站, 命令行(Windows/UNIX/Linux)' 三大平台, 是个多平台的IP查询网站, 更新即使, 数据准确是我们的目标\"/>\n                <meta n"
-  },
-  "error": null,
+  "result": null,
+  "error": "请求超时",
   "test_ip": "8.8.8.8"
 }

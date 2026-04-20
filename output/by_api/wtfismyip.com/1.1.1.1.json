@@ -2,18 +2,18 @@
   "name": "wtfismyip.com",
   "url": "https://wtfismyip.com/json",
   "status": "success",
-  "elapsed_ms": 489.66,
+  "elapsed_ms": 110.51,
   "remark": "",
   "supports_ip": false,
   "result": {
-    "YourFuckingIPAddress": "112.5.70.126",
-    "YourFuckingLocation": "Xiamen, FJ, China",
-    "YourFuckingHostname": "112.5.70.126",
-    "YourFuckingISP": "China Mobile",
+    "YourFuckingIPAddress": "64.236.145.84",
+    "YourFuckingLocation": "Chicago, IL, United States",
+    "YourFuckingHostname": "64.236.145.84",
+    "YourFuckingISP": "Microsoft Corporation",
     "YourFuckingTorExit": false,
-    "YourFuckingCity": "Xiamen",
-    "YourFuckingCountry": "China",
-    "YourFuckingCountryCode": "CN"
+    "YourFuckingCity": "Chicago",
+    "YourFuckingCountry": "United States",
+    "YourFuckingCountryCode": "US"
   },
   "error": null,
   "test_ip": "1.1.1.1"

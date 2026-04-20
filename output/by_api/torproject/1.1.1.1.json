@@ -1,11 +1,14 @@
 {
   "name": "torproject",
   "url": "https://check.torproject.org/api/ip",
-  "status": "timeout",
-  "elapsed_ms": 10961.56,
+  "status": "success",
+  "elapsed_ms": 113.64,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "IsTor": false,
+    "IP": "64.236.145.84"
+  },
+  "error": null,
   "test_ip": "1.1.1.1"
 }

@@ -1,11 +1,37 @@
 {
   "name": "ipquery.io",
   "url": "https://api.ipquery.io/?format=json",
-  "status": "error",
-  "elapsed_ms": 2084.98,
+  "status": "success",
+  "elapsed_ms": 567.64,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "Cannot connect to host api.ipquery.io:443 ssl:default [远程计算机拒绝网络连接。]",
+  "result": {
+    "ip": "64.236.145.84",
+    "isp": {
+      "asn": "AS8075",
+      "org": "Microsoft Corporation",
+      "isp": "Microsoft Corporation"
+    },
+    "location": {
+      "country": "United States",
+      "country_code": "US",
+      "city": "Chicago",
+      "state": "Illinois",
+      "zipcode": "60666",
+      "latitude": 41.882037261270995,
+      "longitude": -87.6540105419603,
+      "timezone": "America/Chicago",
+      "localtime": "2026-04-20T05:31:25"
+    },
+    "risk": {
+      "is_mobile": false,
+      "is_vpn": false,
+      "is_tor": false,
+      "is_proxy": false,
+      "is_datacenter": false,
+      "risk_score": 0
+    }
+  },
+  "error": null,
   "test_ip": "117.30.120.138"
 }

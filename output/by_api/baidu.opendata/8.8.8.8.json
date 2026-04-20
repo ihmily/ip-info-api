@@ -2,7 +2,7 @@
   "name": "baidu.opendata",
   "url": "https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=8.8.8.8",
   "status": "success",
-  "elapsed_ms": 50.06,
+  "elapsed_ms": 220.54,
   "remark": "",
   "supports_ip": true,
   "result": {

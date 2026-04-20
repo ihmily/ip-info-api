@@ -2,11 +2,11 @@
   "name": "geolocation-db.com",
   "url": "https://geolocation-db.com/json",
   "status": "success",
-  "elapsed_ms": 1356.6,
+  "elapsed_ms": 949.34,
   "remark": "",
   "supports_ip": false,
   "result": {
-    "raw": "{\"country_code\":\"CN\",\"country_name\":\"China\",\"city\":\"Quanzhou\",\"postal\":null,\"latitude\":24.9139,\"longitude\":118.5858,\"IPv4\":\"112.5.70.126\",\"state\":\"Fujian\"}"
+    "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"64.236.145.84\",\"state\":null}"
   },
   "error": null,
   "test_ip": "117.30.120.138"

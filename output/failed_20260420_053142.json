@@ -1,0 +1,124 @@
+[
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 827.85,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 220.52,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 437.11,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "cip.cc",
+    "url": "http://www.cip.cc/8.8.8.8",
+    "status": "timeout",
+    "elapsed_ms": 10432.07,
+    "remark": "返回文本格式",
+    "supports_ip": true,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 209.46,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 35.67,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 33.32,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 512.37,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 3631.51,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 271.65,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
+    "test_ip": "8.8.8.8"
+  }
+]

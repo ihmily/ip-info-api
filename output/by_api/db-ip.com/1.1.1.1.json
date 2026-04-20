@@ -2,7 +2,7 @@
   "name": "db-ip.com",
   "url": "https://api.db-ip.com/v2/free/1.1.1.1",
   "status": "success",
-  "elapsed_ms": 350.82,
+  "elapsed_ms": 48.03,
   "remark": "",
   "supports_ip": true,
   "result": {

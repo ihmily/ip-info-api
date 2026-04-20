@@ -2,10 +2,10 @@
   "name": "test.ipw.cn",
   "url": "https://test.ipw.cn/api/ip/myip?json",
   "status": "error",
-  "elapsed_ms": 34.09,
+  "elapsed_ms": 512.37,
   "remark": "",
   "supports_ip": false,
   "result": null,
-  "error": "Cannot connect to host test.ipw.cn:443 ssl:default [getaddrinfo failed]",
+  "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
   "test_ip": "117.30.120.138"
 }

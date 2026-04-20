@@ -1,12 +1,63 @@
 {
   "name": "ipinfo.io",
   "url": "https://ipinfo.io/widget/demo/1.1.1.1",
-  "status": "http_429",
-  "elapsed_ms": 253.62,
+  "status": "success",
+  "elapsed_ms": 19.05,
   "remark": "",
   "supports_ip": true,
   "result": {
-    "raw": "Too Many Requests"
+    "input": "1.1.1.1",
+    "data": {
+      "ip": "1.1.1.1",
+      "hostname": "one.one.one.one",
+      "city": "Brisbane",
+      "region": "Queensland",
+      "country": "AU",
+      "loc": "-27.4679,153.0281",
+      "org": "AS13335 Cloudflare, Inc.",
+      "postal": "9010",
+      "timezone": "Australia/Brisbane",
+      "asn": {
+        "asn": "AS13335",
+        "name": "Cloudflare, Inc.",
+        "domain": "cloudflare.com",
+        "route": "1.1.1.0/24",
+        "type": "hosting"
+      },
+      "company": {
+        "name": "APNIC and Cloudflare DNS Resolver project",
+        "domain": "cloudflare.com",
+        "type": "hosting",
+        "firmographic": {
+          "name": "Apnic Pty Ltd",
+          "domain": "apnic.net",
+          "founded": "",
+          "employees": null,
+          "sic": null
+        }
+      },
+      "privacy": {
+        "vpn": false,
+        "proxy": false,
+        "tor": false,
+        "relay": false,
+        "hosting": true,
+        "service": ""
+      },
+      "abuse": {
+        "address": "PO Box 3646, South Brisbane, QLD 4101, Australia",
+        "country": "AU",
+        "email": "helpdesk@apnic.net",
+        "name": "ABUSE APNICRANDNETAU",
+        "network": "1.1.1.0/24",
+        "phone": "+000000000"
+      },
+      "is_anycast": true,
+      "is_mobile": false,
+      "is_anonymous": false,
+      "is_satellite": false,
+      "is_hosting": true
+    }
   },
   "error": null,
   "test_ip": "1.1.1.1"

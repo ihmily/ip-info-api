@@ -2,7 +2,7 @@
   "name": "ipapi.is",
   "url": "https://api.ipapi.is/?ip=8.8.8.8",
   "status": "success",
-  "elapsed_ms": 257.89,
+  "elapsed_ms": 16.56,
   "remark": "",
   "supports_ip": true,
   "result": {
@@ -65,11 +65,11 @@
       "longitude": -122.08385,
       "zip": "95196",
       "timezone": "America/Los_Angeles",
-      "local_time": "2026-04-19T21:56:54-07:00",
-      "local_time_unix": 1776661014,
+      "local_time": "2026-04-19T22:31:32-07:00",
+      "local_time_unix": 1776663092,
       "is_dst": true
     },
-    "elapsed_ms": 0.1
+    "elapsed_ms": 0.24
   },
   "error": null,
   "test_ip": "8.8.8.8"

@@ -2,7 +2,7 @@
   "name": "freeipapi.com",
   "url": "https://freeipapi.com/api/json/8.8.8.8",
   "status": "success",
-  "elapsed_ms": 581.03,
+  "elapsed_ms": 132.94,
   "remark": "",
   "supports_ip": true,
   "result": {

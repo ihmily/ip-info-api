@@ -1,11 +1,13 @@
 {
   "name": "cloudflare.trace",
   "url": "https://1.1.1.1/cdn-cgi/trace",
-  "status": "timeout",
-  "elapsed_ms": 10961.89,
+  "status": "success",
+  "elapsed_ms": 4.05,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "raw": "fl=658f111\nh=1.1.1.1\nip=64.236.145.84\nts=1776663088.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.13.5\ncolo=ORD\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
+  },
+  "error": null,
   "test_ip": "1.1.1.1"
 }

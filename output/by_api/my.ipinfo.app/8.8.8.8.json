@@ -2,7 +2,7 @@
   "name": "my.ipinfo.app",
   "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
   "status": "http_404",
-  "elapsed_ms": 280.49,
+  "elapsed_ms": 33.32,
   "remark": "",
   "supports_ip": false,
   "result": {
