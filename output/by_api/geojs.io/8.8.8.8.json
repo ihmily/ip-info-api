@@ -2,7 +2,7 @@
   "name": "geojs.io",
   "url": "https://get.geojs.io/v1/ip/geo/8.8.8.8.json",
   "status": "success",
-  "elapsed_ms": 11.81,
+  "elapsed_ms": 14.88,
   "remark": "",
   "supports_ip": true,
   "result": {

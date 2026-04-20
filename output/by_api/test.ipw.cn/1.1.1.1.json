@@ -2,7 +2,7 @@
   "name": "test.ipw.cn",
   "url": "https://test.ipw.cn/api/ip/myip?json",
   "status": "error",
-  "elapsed_ms": 3631.51,
+  "elapsed_ms": 493.18,
   "remark": "",
   "supports_ip": false,
   "result": null,

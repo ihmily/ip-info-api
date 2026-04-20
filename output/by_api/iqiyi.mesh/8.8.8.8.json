@@ -2,7 +2,7 @@
   "name": "iqiyi.mesh",
   "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip=8.8.8.8",
   "status": "success",
-  "elapsed_ms": 267.32,
+  "elapsed_ms": 229.48,
   "remark": "",
   "supports_ip": true,
   "result": {

@@ -3,7 +3,7 @@
     "name": "bilibili",
     "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
     "status": "http_412",
-    "elapsed_ms": 827.85,
+    "elapsed_ms": 968.13,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -16,7 +16,7 @@
     "name": "bilibili",
     "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
     "status": "http_412",
-    "elapsed_ms": 220.52,
+    "elapsed_ms": 237.28,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -29,7 +29,7 @@
     "name": "bilibili",
     "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
     "status": "http_412",
-    "elapsed_ms": 437.11,
+    "elapsed_ms": 232.7,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -39,21 +39,10 @@
     "test_ip": "8.8.8.8"
   },
   {
-    "name": "cip.cc",
-    "url": "http://www.cip.cc/8.8.8.8",
-    "status": "timeout",
-    "elapsed_ms": 10432.07,
-    "remark": "返回文本格式",
-    "supports_ip": true,
-    "result": null,
-    "error": "请求超时",
-    "test_ip": "8.8.8.8"
-  },
-  {
     "name": "my.ipinfo.app",
     "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
     "status": "http_404",
-    "elapsed_ms": 209.46,
+    "elapsed_ms": 389.14,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -66,7 +55,7 @@
     "name": "my.ipinfo.app",
     "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
     "status": "http_404",
-    "elapsed_ms": 35.67,
+    "elapsed_ms": 43.02,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -79,7 +68,7 @@
     "name": "my.ipinfo.app",
     "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
     "status": "http_404",
-    "elapsed_ms": 33.32,
+    "elapsed_ms": 43.35,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -92,7 +81,7 @@
     "name": "test.ipw.cn",
     "url": "https://test.ipw.cn/api/ip/myip?json",
     "status": "error",
-    "elapsed_ms": 512.37,
+    "elapsed_ms": 8706.97,
     "remark": "",
     "supports_ip": false,
     "result": null,
@@ -103,7 +92,7 @@
     "name": "test.ipw.cn",
     "url": "https://test.ipw.cn/api/ip/myip?json",
     "status": "error",
-    "elapsed_ms": 3631.51,
+    "elapsed_ms": 493.18,
     "remark": "",
     "supports_ip": false,
     "result": null,
@@ -114,7 +103,7 @@
     "name": "test.ipw.cn",
     "url": "https://test.ipw.cn/api/ip/myip?json",
     "status": "error",
-    "elapsed_ms": 271.65,
+    "elapsed_ms": 5899.14,
     "remark": "",
     "supports_ip": false,
     "result": null,

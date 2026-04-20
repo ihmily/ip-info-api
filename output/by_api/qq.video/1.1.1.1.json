@@ -2,15 +2,15 @@
   "name": "qq.video",
   "url": "https://vv.video.qq.com/checktime?otype=ojson",
   "status": "success",
-  "elapsed_ms": 211.97,
+  "elapsed_ms": 194.11,
   "remark": "",
   "supports_ip": false,
   "result": {
     "s": "o",
-    "t": 1776663088,
-    "ip": "23.2.16.6",
+    "t": 1776663820,
+    "ip": "23.55.100.141",
     "pos": "---",
-    "rand": "rzOxrLZYYfrShWSg_pHS_g=="
+    "rand": "B60sz01bFL-k3kWPhc2evA=="
   },
   "error": null,
   "test_ip": "1.1.1.1"

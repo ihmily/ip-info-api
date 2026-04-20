@@ -2,7 +2,7 @@
   "name": "ipapi.co",
   "url": "https://ipapi.co/117.30.120.138/json/",
   "status": "success",
-  "elapsed_ms": 124.64,
+  "elapsed_ms": 126.76,
   "remark": "支持CORS",
   "supports_ip": true,
   "result": {

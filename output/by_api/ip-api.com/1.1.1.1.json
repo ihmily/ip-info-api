@@ -2,7 +2,7 @@
   "name": "ip-api.com",
   "url": "http://ip-api.com/json/1.1.1.1?lang=zh-CN",
   "status": "success",
-  "elapsed_ms": 16.44,
+  "elapsed_ms": 3.97,
   "remark": "支持中文",
   "supports_ip": true,
   "result": {
