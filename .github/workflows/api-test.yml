@@ -27,19 +27,23 @@ jobs:
         with:
           python-version: '3.11'
       
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+      
       - name: Install dependencies
         run: |
           cd test
-          pip install -r requirements.txt
+          uv sync
       
       - name: Run API tests
         run: |
           cd test
-          python test_apis.py -c 32 -v --clear
+          uv run python test_apis.py -c 32 -v --clear
       
       - name: Update README with API status
         run: |
-          python .github/update_readme.py
+          cd test
+          uv run python ../.github/update_readme.py
       
       - name: Commit and push changes
         run: |

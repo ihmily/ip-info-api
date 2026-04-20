@@ -50,7 +50,7 @@ API_CONFIG = {
 
 def get_api_status(api_name: str) -> dict:
     """获取API状态"""
-    api_dir = Path(__file__).parent.parent / "output" / "by_api" / api_name
+    api_dir = Path(__file__).parent.parent / "test" / "output" / "by_api" / api_name
     if not api_dir.exists():
         return {"status": "unknown", "elapsed_ms": None, "count": 0, "success": 0, "failed": 0}
     
@@ -107,7 +107,7 @@ def generate_readme_table() -> str:
     """生成README中的API状态表格"""
     output_lines = []
     output_lines.append("## 📊 API状态监控\n")
-    output_lines.append(f"> 自动更新于: {Path('output')}\n")
+    output_lines.append(f"> 自动更新于: test/output\n")
     output_lines.append("### 支持查询指定IP的API\n")
     output_lines.append("| API | 状态 | 平均响应 | 成功率 | 详情 |")
     output_lines.append("|-----|------|---------|--------|------|")
@@ -119,7 +119,7 @@ def generate_readme_table() -> str:
         icon = get_status_icon(stat["status"])
         elapsed = f"{stat['elapsed_ms']}ms" if stat["elapsed_ms"] else "-"
         success_rate = f"{stat['success']}/{stat['count']}" if stat["count"] > 0 else "-"
-        detail_link = f"[📁 查看](output/by_api/{api_name}/)"
+        detail_link = f"[📁 查看](test/output/by_api/{api_name}/)"
         output_lines.append(f"| {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
     
     output_lines.append("\n### 仅查询本机IP的API\n")
@@ -133,7 +133,7 @@ def generate_readme_table() -> str:
         icon = get_status_icon(stat["status"])
         elapsed = f"{stat['elapsed_ms']}ms" if stat["elapsed_ms"] else "-"
         success_rate = f"{stat['success']}/{stat['count']}" if stat["count"] > 0 else "-"
-        detail_link = f"[📁 查看](output/by_api/{api_name}/)"
+        detail_link = f"[📁 查看](test/output/by_api/{api_name}/)"
         output_lines.append(f"| {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
     
     output_lines.append("\n### 仅支持查询指定IP的API\n")
@@ -147,7 +147,7 @@ def generate_readme_table() -> str:
         icon = get_status_icon(stat["status"])
         elapsed = f"{stat['elapsed_ms']}ms" if stat["elapsed_ms"] else "-"
         success_rate = f"{stat['success']}/{stat['count']}" if stat["count"] > 0 else "-"
-        detail_link = f"[📁 查看](output/by_api/{api_name}/)"
+        detail_link = f"[📁 查看](test/output/by_api/{api_name}/)"
         output_lines.append(f"| {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
     
     return "\n".join(output_lines)
