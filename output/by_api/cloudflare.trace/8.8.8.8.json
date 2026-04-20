@@ -2,7 +2,7 @@
   "name": "cloudflare.trace",
   "url": "https://1.1.1.1/cdn-cgi/trace",
   "status": "timeout",
-  "elapsed_ms": 10972.13,
+  "elapsed_ms": 10963.03,
   "remark": "",
   "supports_ip": false,
   "result": null,

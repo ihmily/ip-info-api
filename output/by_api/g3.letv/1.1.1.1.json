@@ -2,7 +2,7 @@
   "name": "g3.letv",
   "url": "https://g3.letv.com/r?format=1",
   "status": "success",
-  "elapsed_ms": 47.19,
+  "elapsed_ms": 53.64,
   "remark": "",
   "supports_ip": false,
   "result": {
@@ -14,8 +14,8 @@
     "geo": "CN.13.168.4",
     "desc": "中国-福建省-厦门市-移动",
     "buss": "bussid=6,alv=80,orgqos=5,host=2,port=80",
-    "curtime": 1776660398,
-    "identify": "176634890:8142",
+    "curtime": 1776661003,
+    "identify": "1731505684:8123",
     "fixlist": "",
     "qosfix": "",
     "prior": "",
@@ -75,7 +75,7 @@
         "aid": 1075,
         "isp": 2,
         "detail": "",
-        "location": "http://125.39.236.26/letvabcdeasktf512K"
+        "location": "http://125.39.236.22/letvabcdeasktf512K"
       }
     ]
   },

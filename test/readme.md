@@ -11,4 +11,5 @@ uv run python ./test_apis.py
 uv run python ./test_apis.py -c
 uv run python ./test_apis.py -c 8
 uv run python ./test_apis.py -c 32 -v
+uv run python ./test_apis.py -c 512 -v --clear
 ```

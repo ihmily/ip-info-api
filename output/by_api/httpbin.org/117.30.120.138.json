@@ -2,7 +2,7 @@
   "name": "httpbin.org",
   "url": "http://httpbin.org/ip",
   "status": "success",
-  "elapsed_ms": 566.03,
+  "elapsed_ms": 589.03,
   "remark": "",
   "supports_ip": false,
   "result": {

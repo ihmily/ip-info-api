@@ -145,7 +145,7 @@ async def test_api(session, name, url_template, req_type, supports_ip, remark, t
     }
 
 
-async def run_tests(concurrency, include_deprecated, verbose):
+async def run_tests(concurrency, include_deprecated, verbose, clear):
     """运行所有测试"""
     all_apis = list(APIS)
     if include_deprecated:
@@ -158,6 +158,13 @@ async def run_tests(concurrency, include_deprecated, verbose):
     output_dir = Path(__file__).parent.parent / "output"
     output_dir.mkdir(exist_ok=True)
     
+    # 清空output目录（JSON文件）
+    if clear:
+        for item in output_dir.iterdir():
+            if item.is_file() and item.suffix == ".json":
+                item.unlink()
+        print("已清空旧的JSON文件")
+    
     # verbose模式：按API站点分组
     verbose_dir = output_dir / "by_api" if verbose else None
     if verbose_dir:
@@ -165,7 +172,6 @@ async def run_tests(concurrency, include_deprecated, verbose):
         # 清空旧数据
         for item in verbose_dir.iterdir():
             if item.is_dir():
-                import shutil
                 shutil.rmtree(item)
     
     results = []
@@ -264,6 +270,8 @@ def main():
                         help="包含已失效的API")
     parser.add_argument("-v", "--verbose", action="store_true", 
                         help="输出详细JSON文件（每个API单独文件夹）")
+    parser.add_argument("--clear", action="store_true", 
+                        help="清空旧的JSON文件后再输出")
     
     args = parser.parse_args()
     
@@ -277,7 +285,7 @@ def main():
         concurrency = args.concurrency
     
     # 运行测试
-    asyncio.run(run_tests(concurrency, args.deprecated, args.verbose))
+    asyncio.run(run_tests(concurrency, args.deprecated, args.verbose, args.clear))
 
 
 if __name__ == "__main__":

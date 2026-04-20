@@ -2,7 +2,7 @@
   "name": "qq.inews",
   "url": "https://r.inews.qq.com/api/ip2city",
   "status": "success",
-  "elapsed_ms": 27.85,
+  "elapsed_ms": 41.14,
   "remark": "",
   "supports_ip": false,
   "result": {

@@ -2,7 +2,7 @@
   "name": "demo.ip-api.com",
   "url": "http://demo.ip-api.com/json/8.8.8.8?fields=66842623&lang=zh-CN",
   "status": "success",
-  "elapsed_ms": 231.84,
+  "elapsed_ms": 1359.34,
   "remark": "支持中文",
   "supports_ip": true,
   "result": {

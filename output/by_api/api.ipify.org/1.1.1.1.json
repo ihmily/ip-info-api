@@ -2,7 +2,7 @@
   "name": "api.ipify.org",
   "url": "https://api.ipify.org?format=json",
   "status": "error",
-  "elapsed_ms": 2290.55,
+  "elapsed_ms": 2268.43,
   "remark": "",
   "supports_ip": false,
   "result": null,

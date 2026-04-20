@@ -1,63 +1,12 @@
 {
   "name": "ipinfo.io",
   "url": "https://ipinfo.io/widget/demo/8.8.8.8",
-  "status": "success",
-  "elapsed_ms": 276.82,
+  "status": "http_429",
+  "elapsed_ms": 254.05,
   "remark": "",
   "supports_ip": true,
   "result": {
-    "input": "8.8.8.8",
-    "data": {
-      "ip": "8.8.8.8",
-      "hostname": "dns.google",
-      "city": "Mountain View",
-      "region": "California",
-      "country": "US",
-      "loc": "37.4056,-122.0775",
-      "org": "AS15169 Google LLC",
-      "postal": "94043",
-      "timezone": "America/Los_Angeles",
-      "asn": {
-        "asn": "AS15169",
-        "name": "Google LLC",
-        "domain": "google.com",
-        "route": "8.8.8.0/24",
-        "type": "hosting"
-      },
-      "company": {
-        "name": "Google LLC",
-        "domain": "google.com",
-        "type": "hosting",
-        "firmographic": {
-          "name": "Google LLC",
-          "domain": "google.com",
-          "founded": "2002-10-22",
-          "employees": null,
-          "sic": 5734
-        }
-      },
-      "privacy": {
-        "vpn": false,
-        "proxy": false,
-        "tor": false,
-        "relay": false,
-        "hosting": true,
-        "service": ""
-      },
-      "abuse": {
-        "address": "US, CA, Mountain View, 1600 Amphitheatre Parkway, 94043",
-        "country": "US",
-        "email": "network-abuse@google.com",
-        "name": "Abuse",
-        "network": "8.8.8.0/24",
-        "phone": "+1-650-253-0000"
-      },
-      "is_anycast": true,
-      "is_mobile": false,
-      "is_anonymous": false,
-      "is_satellite": false,
-      "is_hosting": true
-    }
+    "raw": "Too Many Requests"
   },
   "error": null,
   "test_ip": "8.8.8.8"

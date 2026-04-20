@@ -2,7 +2,7 @@
   "name": "ipbase.com",
   "url": "https://api.ipbase.com/v1/json",
   "status": "success",
-  "elapsed_ms": 397.8,
+  "elapsed_ms": 274.15,
   "remark": "",
   "supports_ip": false,
   "result": {

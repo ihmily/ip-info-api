@@ -1,12 +1,12 @@
 {
   "total": 114,
-  "success": 88,
-  "failed": 26,
-  "concurrency": 32,
+  "success": 84,
+  "failed": 30,
+  "concurrency": 512,
   "test_ips": [
     "117.30.120.138",
     "1.1.1.1",
     "8.8.8.8"
   ],
-  "timestamp": "20260420_124659"
+  "timestamp": "20260420_125703"
 }

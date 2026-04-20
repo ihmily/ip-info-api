@@ -2,7 +2,7 @@
   "name": "ipwhois.app",
   "url": "https://ipwhois.app/json/8.8.8.8?format=json",
   "status": "success",
-  "elapsed_ms": 256.59,
+  "elapsed_ms": 280.84,
   "remark": "",
   "supports_ip": true,
   "result": {
