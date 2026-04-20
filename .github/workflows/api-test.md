@@ -27,6 +27,26 @@ CI运行后会：
 2. 更新 `README.md` 中的API状态表格
 3. 生成测试结果JSON文件到 `output/` 目录
 
+## 本地开发流程
+
+```bash
+# 1. 修改代码后，先commit本地改动
+git add -A && git commit -m "your message"
+
+# 2. 拉取远程最新代码并合并
+git pull origin main --rebase
+
+# 3. 推送到远程
+git push origin main
+```
+
+> 注意：如果有未提交的改动又想拉取远程代码，使用 `git stash` 先暂存：
+> ```bash
+> git stash
+> git pull origin main --rebase
+> git stash pop
+> ```
+
 ## 常见问题
 
 ### CI权限问题
