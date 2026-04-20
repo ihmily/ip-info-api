@@ -119,8 +119,8 @@ def generate_readme_table() -> str:
     output_lines.append(f"> 由 GitHub Actions 自动更新于 (UTC+8): {update_time}\n")
     output_lines.append(f"> 测试IP: {test_ips_str}\n")
     output_lines.append("### 支持查询指定IP的API\n")
-    output_lines.append("| API | 状态 | 平均响应 | 成功率 | 详情 |")
-    output_lines.append("|-----|------|---------|--------|------|")
+    output_lines.append("| 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |")
+    output_lines.append("|------|-----|------|---------|--------|------|")
     
     for api_name, config in sorted(API_CONFIG.items()):
         if config["category"] != 1:
@@ -130,12 +130,14 @@ def generate_readme_table() -> str:
         elapsed = f"{stat['elapsed_ms']}ms" if stat["elapsed_ms"] else "-"
         success_rate = f"{stat['success']}/{stat['count']}" if stat["count"] > 0 else "-"
         url = config.get("url", "").replace("{ip}", test_ip)
+        badge_url = f"https://img.shields.io/website?url={quote(url, safe='')}&label={api_name}"
+        shield_link = f"[![{api_name}]({badge_url})]({url})"
         detail_link = f"[📁 查看](output/by_api/{api_name}/)"
-        output_lines.append(f"| {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
+        output_lines.append(f"| {shield_link} | {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
     
     output_lines.append("\n### 仅查询本机IP的API\n")
-    output_lines.append("| API | 状态 | 平均响应 | 成功率 | 详情 |")
-    output_lines.append("|-----|------|---------|--------|------|")
+    output_lines.append("| 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |")
+    output_lines.append("|------|-----|------|---------|--------|------|")
     
     for api_name, config in sorted(API_CONFIG.items()):
         if config["category"] != 2:
@@ -145,12 +147,14 @@ def generate_readme_table() -> str:
         elapsed = f"{stat['elapsed_ms']}ms" if stat["elapsed_ms"] else "-"
         success_rate = f"{stat['success']}/{stat['count']}" if stat["count"] > 0 else "-"
         url = config.get("url", "")
+        badge_url = f"https://img.shields.io/website?url={quote(url, safe='')}&label={api_name}"
+        shield_link = f"[![{api_name}]({badge_url})]({url})"
         detail_link = f"[📁 查看](output/by_api/{api_name}/)"
-        output_lines.append(f"| {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
+        output_lines.append(f"| {shield_link} | {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
     
     output_lines.append("\n### 仅支持查询指定IP的API\n")
-    output_lines.append("| API | 状态 | 平均响应 | 成功率 | 详情 |")
-    output_lines.append("|-----|------|---------|--------|------|")
+    output_lines.append("| 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |")
+    output_lines.append("|------|-----|------|---------|--------|------|")
     
     for api_name, config in sorted(API_CONFIG.items()):
         if config["category"] != 3:
@@ -160,8 +164,10 @@ def generate_readme_table() -> str:
         elapsed = f"{stat['elapsed_ms']}ms" if stat["elapsed_ms"] else "-"
         success_rate = f"{stat['success']}/{stat['count']}" if stat["count"] > 0 else "-"
         url = config.get("url", "").replace("{ip}", test_ip)
+        badge_url = f"https://img.shields.io/website?url={quote(url, safe='')}&label={api_name}"
+        shield_link = f"[![{api_name}]({badge_url})]({url})"
         detail_link = f"[📁 查看](output/by_api/{api_name}/)"
-        output_lines.append(f"| {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
+        output_lines.append(f"| {shield_link} | {api_name} | {icon} | {elapsed} | {success_rate} | {detail_link} |")
     
     return "\n".join(output_lines)
 
