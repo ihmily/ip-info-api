@@ -1,0 +1,102 @@
+{
+  "name": "ip.nc.gy",
+  "url": "https://ip.nc.gy/json?ip=117.30.120.138",
+  "status": "success",
+  "elapsed_ms": 1256.56,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "117.30.120.138",
+    "city": {
+      "geoname_id": 1790645,
+      "names": {
+        "de": "Xiamen",
+        "en": "Xiamen",
+        "es": "Xiamen",
+        "fr": "Xiamen",
+        "ja": "廈門市",
+        "ru": "Сямэнь",
+        "zh-CN": "厦门"
+      }
+    },
+    "continent": {
+      "code": "AS",
+      "geoname_id": 6255147,
+      "names": {
+        "de": "Asien",
+        "en": "Asia",
+        "es": "Asia",
+        "fr": "Asie",
+        "ja": "アジア",
+        "pt-BR": "Ásia",
+        "ru": "Азия",
+        "zh-CN": "亚洲"
+      }
+    },
+    "country": {
+      "geoname_id": 1814991,
+      "iso_code": "CN",
+      "names": {
+        "de": "China",
+        "en": "China",
+        "es": "China",
+        "fr": "Chine",
+        "ja": "中国",
+        "pt-BR": "China",
+        "ru": "Китай",
+        "zh-CN": "中国"
+      }
+    },
+    "location": {
+      "accuracy_radius": 5,
+      "latitude": 24.4793,
+      "longitude": 118.0673,
+      "time_zone": "Asia/Shanghai"
+    },
+    "registered_country": {
+      "geoname_id": 1814991,
+      "iso_code": "CN",
+      "names": {
+        "de": "China",
+        "en": "China",
+        "es": "China",
+        "fr": "Chine",
+        "ja": "中国",
+        "pt-BR": "China",
+        "ru": "Китай",
+        "zh-CN": "中国"
+      }
+    },
+    "subdivisions": [
+      {
+        "geoname_id": 1811017,
+        "iso_code": "FJ",
+        "names": {
+          "de": "Fujian",
+          "en": "Fujian",
+          "es": "Fujian",
+          "fr": "Province de Fujian",
+          "pt-BR": "Fuquiém",
+          "ru": "Фуцзянь",
+          "zh-CN": "福建"
+        }
+      }
+    ],
+    "asn": {
+      "autonomous_system_number": 4134,
+      "autonomous_system_organization": "CHINANET-BACKBONE",
+      "as_domain": "chinatelecom.com.cn"
+    },
+    "proxy": {
+      "is_proxy": true,
+      "is_vpn": false,
+      "is_tor": false,
+      "is_hosting": true,
+      "is_cdn": false,
+      "is_school": false,
+      "is_anonymous": true
+    }
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

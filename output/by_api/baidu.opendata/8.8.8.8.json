@@ -1,0 +1,37 @@
+{
+  "name": "baidu.opendata",
+  "url": "https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 42.41,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "status": "0",
+    "t": "",
+    "set_cache_time": "",
+    "data": [
+      {
+        "ExtendedLocation": "",
+        "OriginQuery": "8.8.8.8",
+        "SchemaVer": "",
+        "appinfo": "",
+        "disp_type": 0,
+        "fetchkey": "8.8.8.8",
+        "location": "美国",
+        "origip": "8.8.8.8",
+        "origipquery": "8.8.8.8",
+        "resourceid": "6006",
+        "role_id": 0,
+        "schemaID": "",
+        "shareImage": 1,
+        "showLikeShare": 1,
+        "showlamp": "1",
+        "strategyData": {},
+        "titlecont": "IP地址查询",
+        "tplt": "ip"
+      }
+    ]
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "realip.cc",
+  "url": "https://realip.cc/?ip=117.30.120.138",
+  "status": "success",
+  "elapsed_ms": 910.47,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "117.30.120.138",
+    "city": "Xiamen",
+    "province": "Fujian",
+    "country": "China",
+    "continent": "Asia",
+    "isp": "Chinanet",
+    "time_zone": "Asia/Shanghai",
+    "latitude": 24.4793,
+    "longitude": 118.0673,
+    "postal_code": null,
+    "iso_code": "CN",
+    "network": "117.30.0.0/17",
+    "notice": "api文档在/docs路径下，调用并发数是有限制的 ©2021-09-27->now",
+    "provider": "Powered by Bboysoul",
+    "blog": "https://www.bboy.app",
+    "tg_group": "https://t.me/bboyapp",
+    "data_updatetime": 20260331,
+    "count": 808398027
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

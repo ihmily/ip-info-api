@@ -1,0 +1,70 @@
+{
+  "name": "ipapi.is",
+  "url": "https://api.ipapi.is/?ip=117.30.120.138",
+  "status": "success",
+  "elapsed_ms": 813.2,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "117.30.120.138",
+    "rir": "APNIC",
+    "is_bogon": false,
+    "is_mobile": false,
+    "is_satellite": false,
+    "is_crawler": false,
+    "is_datacenter": false,
+    "is_tor": false,
+    "is_proxy": false,
+    "is_vpn": false,
+    "is_abuser": false,
+    "company": {
+      "name": "CHINANET Fujian province network",
+      "abuser_score": "0.0022 (Low)",
+      "domain": "chinatelecom.cn",
+      "type": "isp",
+      "network": "117.24.0.0 - 117.31.255.255",
+      "whois": "https://api.ipapi.is/?whois=117.24.0.0"
+    },
+    "abuse": {
+      "name": "ABUSE CHINANETCN",
+      "address": "No.31 ,jingrong street,beijing, 100032",
+      "email": "anti-spam@chinatelecom.cn",
+      "phone": "+000000000"
+    },
+    "asn": {
+      "asn": 4134,
+      "abuser_score": "0.0015 (Low)",
+      "route": "117.24.0.0/13",
+      "descr": "CHINANET-BACKBONE No.31,Jin-rong Street, CN",
+      "country": "cn",
+      "active": true,
+      "org": "CHINANET BACKBONE",
+      "domain": "chinatelecom.com.cn",
+      "abuse": "anti-spam@chinatelecom.cn",
+      "type": "isp",
+      "updated": "2021-06-15",
+      "rir": "APNIC",
+      "whois": "https://api.ipapi.is/?whois=AS4134"
+    },
+    "location": {
+      "is_eu_member": false,
+      "calling_code": "86",
+      "currency_code": "CNY",
+      "continent": "AS",
+      "country": "China",
+      "country_code": "CN",
+      "state": "Fujian",
+      "city": "Houxi",
+      "latitude": 24.6313,
+      "longitude": 118.033,
+      "zip": "361000",
+      "timezone": "Asia/Shanghai",
+      "local_time": "2026-04-20T12:46:29+08:00",
+      "local_time_unix": 1776660389,
+      "is_dst": false
+    },
+    "elapsed_ms": 0.48
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

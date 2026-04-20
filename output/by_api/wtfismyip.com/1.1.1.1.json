@@ -1,0 +1,20 @@
+{
+  "name": "wtfismyip.com",
+  "url": "https://wtfismyip.com/json",
+  "status": "success",
+  "elapsed_ms": 441.31,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "YourFuckingIPAddress": "112.5.70.126",
+    "YourFuckingLocation": "Xiamen, FJ, China",
+    "YourFuckingHostname": "112.5.70.126",
+    "YourFuckingISP": "China Mobile",
+    "YourFuckingTorExit": false,
+    "YourFuckingCity": "Xiamen",
+    "YourFuckingCountry": "China",
+    "YourFuckingCountryCode": "CN"
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

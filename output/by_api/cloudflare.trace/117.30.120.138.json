@@ -1,0 +1,11 @@
+{
+  "name": "cloudflare.trace",
+  "url": "https://1.1.1.1/cdn-cgi/trace",
+  "status": "timeout",
+  "elapsed_ms": 10418.48,
+  "remark": "",
+  "supports_ip": false,
+  "result": null,
+  "error": "请求超时",
+  "test_ip": "117.30.120.138"
+}

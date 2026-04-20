@@ -1,0 +1,51 @@
+{
+  "name": "freeipapi.com",
+  "url": "https://freeipapi.com/api/json/1.1.1.1",
+  "status": "success",
+  "elapsed_ms": 3845.52,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ipVersion": 4,
+    "ipAddress": "1.1.1.1",
+    "latitude": -33.8688,
+    "longitude": 151.209,
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "capital": "Canberra",
+    "phoneCodes": [
+      61
+    ],
+    "timeZones": [
+      "Antarctica/Macquarie",
+      "Australia/Adelaide",
+      "Australia/Brisbane",
+      "Australia/Broken_Hill",
+      "Australia/Darwin",
+      "Australia/Eucla",
+      "Australia/Hobart",
+      "Australia/Lindeman",
+      "Australia/Lord_Howe",
+      "Australia/Melbourne",
+      "Australia/Perth",
+      "Australia/Sydney"
+    ],
+    "zipCode": "4000",
+    "cityName": "Sydney",
+    "regionName": "New South Wales",
+    "regionCode": "NSW",
+    "continent": "Oceania",
+    "continentCode": "OC",
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "en"
+    ],
+    "asn": "13335",
+    "asnOrganization": "Cloudflare, Inc.",
+    "isProxy": false
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ipapi.co",
+  "url": "https://ipapi.co/117.30.120.138/json/",
+  "status": "http_429",
+  "elapsed_ms": 1592.25,
+  "remark": "支持CORS",
+  "supports_ip": true,
+  "result": {
+    "error": true,
+    "reason": "RateLimited",
+    "message": "Visit https://ipapi.co/ratelimited/ for details"
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

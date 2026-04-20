@@ -1,0 +1,16 @@
+{
+  "name": "ipapi.co",
+  "url": "https://ipapi.co/1.1.1.1/json/",
+  "status": "http_429",
+  "elapsed_ms": 366.1,
+  "remark": "支持CORS",
+  "supports_ip": true,
+  "result": {
+    "reason": "RateLimited",
+    "message": "Please sign up for a paid plan at https://ipapi.co/pricing or contact us for a trial account",
+    "wait": 1.0,
+    "error": true
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

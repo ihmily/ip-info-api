@@ -1,0 +1,26 @@
+{
+  "name": "ip-api.com",
+  "url": "http://ip-api.com/json/117.30.120.138?lang=zh-CN",
+  "status": "success",
+  "elapsed_ms": 1532.31,
+  "remark": "支持中文",
+  "supports_ip": true,
+  "result": {
+    "status": "success",
+    "country": "中国",
+    "countryCode": "CN",
+    "region": "FJ",
+    "regionName": "福建省",
+    "city": "厦门市",
+    "zip": "",
+    "lat": 24.4793,
+    "lon": 118.0673,
+    "timezone": "Asia/Shanghai",
+    "isp": "Chinanet",
+    "org": "Chinanet FJ",
+    "as": "AS4134 CHINANET-BACKBONE",
+    "query": "117.30.120.138"
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ip-api.com",
+  "url": "http://ip-api.com/json/8.8.8.8?lang=zh-CN",
+  "status": "success",
+  "elapsed_ms": 244.45,
+  "remark": "支持中文",
+  "supports_ip": true,
+  "result": {
+    "status": "success",
+    "country": "美国",
+    "countryCode": "US",
+    "region": "VA",
+    "regionName": "弗吉尼亚州",
+    "city": "Ashburn",
+    "zip": "20149",
+    "lat": 39.03,
+    "lon": -77.5,
+    "timezone": "America/New_York",
+    "isp": "Google LLC",
+    "org": "Google Public DNS",
+    "as": "AS15169 Google LLC",
+    "query": "8.8.8.8"
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

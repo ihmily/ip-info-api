@@ -1,0 +1,13 @@
+{
+  "name": "my.ipinfo.app",
+  "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+  "status": "http_404",
+  "elapsed_ms": 278.88,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

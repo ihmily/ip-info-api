@@ -1,0 +1,16 @@
+{
+  "name": "db-ip.demo",
+  "url": "https://db-ip.com/demo/home.php?s=8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 360.77,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "status": "ok",
+    "demoInfo": {
+      "error": "over query limit, please try again later"
+    }
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

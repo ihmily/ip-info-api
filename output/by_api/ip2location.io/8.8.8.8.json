@@ -1,0 +1,25 @@
+{
+  "name": "ip2location.io",
+  "url": "https://api.ip2location.io/?ip=8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 276.99,
+  "remark": "免费5000次/天",
+  "supports_ip": true,
+  "result": {
+    "ip": "8.8.8.8",
+    "country_code": "US",
+    "country_name": "United States of America",
+    "region_name": "California",
+    "city_name": "Mountain View",
+    "latitude": 37.38605,
+    "longitude": -122.08385,
+    "zip_code": "94035",
+    "time_zone": "-07:00",
+    "asn": "15169",
+    "as": "Google LLC",
+    "is_proxy": false,
+    "message": "Limit to 1,000 queries per day. Sign up for a Free plan at https://www.ip2location.io to get 50K queries per month."
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

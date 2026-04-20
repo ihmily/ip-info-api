@@ -1,0 +1,27 @@
+{
+  "name": "geojs.io",
+  "url": "https://get.geojs.io/v1/ip/geo/117.30.120.138.json",
+  "status": "success",
+  "elapsed_ms": 2511.62,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "accuracy": 5,
+    "area_code": "0",
+    "asn": 4134,
+    "city": "Xiamen",
+    "continent_code": "AS",
+    "country": "China",
+    "country_code": "CN",
+    "country_code3": "CHN",
+    "ip": "117.30.120.138",
+    "latitude": "24.4793",
+    "longitude": "118.0673",
+    "organization": "AS4134 Chinanet",
+    "organization_name": "Chinanet",
+    "region": "Fujian",
+    "timezone": "Asia/Shanghai"
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

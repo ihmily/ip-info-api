@@ -1,0 +1,25 @@
+{
+  "name": "ip2location.io",
+  "url": "https://api.ip2location.io/?ip=117.30.120.138",
+  "status": "success",
+  "elapsed_ms": 798.87,
+  "remark": "免费5000次/天",
+  "supports_ip": true,
+  "result": {
+    "ip": "117.30.120.138",
+    "country_code": "CN",
+    "country_name": "China",
+    "region_name": "Fujian",
+    "city_name": "Xiamen",
+    "latitude": 24.47979,
+    "longitude": 118.08187,
+    "zip_code": "350201",
+    "time_zone": "+08:00",
+    "asn": "4134",
+    "as": "China Telecom",
+    "is_proxy": false,
+    "message": "Limit to 1,000 queries per day. Sign up for a Free plan at https://www.ip2location.io to get 50K queries per month."
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

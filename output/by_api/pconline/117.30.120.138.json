@@ -1,0 +1,13 @@
+{
+  "name": "pconline",
+  "url": "https://whois.pconline.com.cn/ipJson.jsp?ip=117.30.120.138&json=true",
+  "status": "success",
+  "elapsed_ms": 161.56,
+  "remark": "返回GBK编码",
+  "supports_ip": true,
+  "result": {
+    "raw": "\n\n\n\n\n{\"ip\":\"117.30.120.138\",\"pro\":\"福建省\",\"proCode\":\"350000\",\"city\":\"厦门市\",\"cityCode\":\"350200\",\"region\":\"\",\"regionCode\":\"0\",\"addr\":\"福建省厦门市 电信\",\"regionNames\":\"\",\"err\":\"\"}\n\n\n\n"
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

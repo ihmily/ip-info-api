@@ -1,0 +1,13 @@
+{
+  "name": "cdid.ctrip",
+  "url": "https://cdid.c-ctrip.com/model-poc2/h",
+  "status": "success",
+  "elapsed_ms": 25.61,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "raw": "112.5.70.126"
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

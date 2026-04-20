@@ -1,0 +1,24 @@
+{
+  "name": "qq.inews",
+  "url": "https://r.inews.qq.com/api/ip2city",
+  "status": "success",
+  "elapsed_ms": 126.33,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "ret": 0,
+    "errMsg": "",
+    "ip": "112.5.70.126",
+    "provcode": "15",
+    "citycode": "141",
+    "country": "中国",
+    "province": "福建省",
+    "city": "厦门市",
+    "district": "",
+    "isp": "",
+    "districtCode": "350200",
+    "callback": ""
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

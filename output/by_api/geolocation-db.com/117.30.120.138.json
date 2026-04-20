@@ -1,0 +1,13 @@
+{
+  "name": "geolocation-db.com",
+  "url": "https://geolocation-db.com/json",
+  "status": "success",
+  "elapsed_ms": 1042.67,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "raw": "{\"country_code\":\"CN\",\"country_name\":\"China\",\"city\":\"Quanzhou\",\"postal\":null,\"latitude\":24.9139,\"longitude\":118.5858,\"IPv4\":\"112.5.70.126\",\"state\":\"Fujian\"}"
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pconline",
+  "url": "https://whois.pconline.com.cn/ipJson.jsp?ip=8.8.8.8&json=true",
+  "status": "success",
+  "elapsed_ms": 56.43,
+  "remark": "返回GBK编码",
+  "supports_ip": true,
+  "result": {
+    "raw": "\n\n\n\n\n{\"ip\":\"8.8.8.8\",\"pro\":\"\",\"proCode\":\"999999\",\"city\":\"\",\"cityCode\":\"0\",\"region\":\"\",\"regionCode\":\"0\",\"addr\":\" 美国\",\"regionNames\":\"\",\"err\":\"noprovince\"}\n\n\n\n"
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

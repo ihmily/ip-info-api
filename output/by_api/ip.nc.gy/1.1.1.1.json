@@ -1,0 +1,46 @@
+{
+  "name": "ip.nc.gy",
+  "url": "https://ip.nc.gy/json?ip=1.1.1.1",
+  "status": "success",
+  "elapsed_ms": 504.9,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "1.1.1.1",
+    "city": {
+      "names": {
+        "en": "Sydney"
+      }
+    },
+    "country": {
+      "iso_code": "AU"
+    },
+    "location": {
+      "latitude": -33.86880111694336,
+      "longitude": 151.20899963378906
+    },
+    "subdivisions": [
+      {
+        "names": {
+          "en": "New South Wales"
+        }
+      }
+    ],
+    "asn": {
+      "autonomous_system_number": 13335,
+      "autonomous_system_organization": "Cloudflare, Inc.",
+      "as_domain": "cloudflare.com"
+    },
+    "proxy": {
+      "is_proxy": true,
+      "is_vpn": false,
+      "is_tor": false,
+      "is_hosting": false,
+      "is_cdn": false,
+      "is_school": false,
+      "is_anonymous": true
+    }
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

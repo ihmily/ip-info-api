@@ -1,0 +1,41 @@
+{
+  "name": "freeipapi.com",
+  "url": "https://freeipapi.com/api/json/117.30.120.138",
+  "status": "success",
+  "elapsed_ms": 4637.3,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ipVersion": 4,
+    "ipAddress": "117.30.120.138",
+    "latitude": 24.6313,
+    "longitude": 118.033,
+    "countryName": "China",
+    "countryCode": "CN",
+    "capital": "Beijing",
+    "phoneCodes": [
+      86
+    ],
+    "timeZones": [
+      "Asia/Shanghai",
+      "Asia/Urumqi"
+    ],
+    "zipCode": "350201",
+    "cityName": "Houxi",
+    "regionName": "Fujian",
+    "regionCode": null,
+    "continent": "Asia",
+    "continentCode": "AS",
+    "currencies": [
+      "CNY"
+    ],
+    "languages": [
+      "zh"
+    ],
+    "asn": "4134",
+    "asnOrganization": "Chinanet",
+    "isProxy": false
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

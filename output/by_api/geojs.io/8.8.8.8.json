@@ -1,0 +1,25 @@
+{
+  "name": "geojs.io",
+  "url": "https://get.geojs.io/v1/ip/geo/8.8.8.8.json",
+  "status": "success",
+  "elapsed_ms": 775.68,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "accuracy": 1000,
+    "area_code": "0",
+    "asn": 15169,
+    "continent_code": "NA",
+    "country": "United States",
+    "country_code": "US",
+    "country_code3": "USA",
+    "ip": "8.8.8.8",
+    "latitude": "37.751",
+    "longitude": "-97.822",
+    "organization": "AS15169 Google LLC",
+    "organization_name": "Google LLC",
+    "timezone": "America/Chicago"
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

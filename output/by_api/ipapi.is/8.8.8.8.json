@@ -1,0 +1,76 @@
+{
+  "name": "ipapi.is",
+  "url": "https://api.ipapi.is/?ip=8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 261.57,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "8.8.8.8",
+    "rir": "ARIN",
+    "is_bogon": false,
+    "is_mobile": false,
+    "is_satellite": false,
+    "is_crawler": false,
+    "is_datacenter": true,
+    "is_tor": false,
+    "is_proxy": false,
+    "is_vpn": false,
+    "is_abuser": true,
+    "datacenter": {
+      "datacenter": "Google LLC",
+      "domain": "google.com",
+      "network": "8.8.8.0 - 8.8.8.255"
+    },
+    "company": {
+      "name": "Google LLC",
+      "abuser_score": "0.0039 (Low)",
+      "domain": "google.com",
+      "type": "hosting",
+      "network": "8.8.8.0 - 8.8.8.255",
+      "whois": "https://api.ipapi.is/?whois=8.8.8.0"
+    },
+    "abuse": {
+      "name": "Google LLC",
+      "address": "1600 Amphitheatre Parkway, Mountain View, CA, 94043, US",
+      "email": "network-abuse@google.com",
+      "phone": "+1-650-253-0000"
+    },
+    "asn": {
+      "asn": 15169,
+      "abuser_score": "0.0007 (Low)",
+      "route": "8.8.8.0/24",
+      "descr": "GOOGLE - Google LLC, US",
+      "country": "us",
+      "active": true,
+      "org": "Google LLC",
+      "domain": "google.com",
+      "abuse": "network-abuse@google.com",
+      "type": "hosting",
+      "created": "2000-03-30",
+      "updated": "2012-02-24",
+      "rir": "ARIN",
+      "whois": "https://api.ipapi.is/?whois=AS15169"
+    },
+    "location": {
+      "is_eu_member": false,
+      "calling_code": "1",
+      "currency_code": "USD",
+      "continent": "NA",
+      "country": "United States",
+      "country_code": "US",
+      "state": "California",
+      "city": "Mountain View",
+      "latitude": 37.38605,
+      "longitude": -122.08385,
+      "zip": "95196",
+      "timezone": "America/Los_Angeles",
+      "local_time": "2026-04-19T21:46:50-07:00",
+      "local_time_unix": 1776660410,
+      "is_dst": true
+    },
+    "elapsed_ms": 0.19
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

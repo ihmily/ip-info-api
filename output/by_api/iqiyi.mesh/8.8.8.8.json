@@ -1,0 +1,15 @@
+{
+  "name": "iqiyi.mesh",
+  "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip=8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 78.12,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "code": "-1",
+    "msg": "param[version] required",
+    "data": "param[version] required"
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

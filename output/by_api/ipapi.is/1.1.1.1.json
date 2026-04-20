@@ -1,0 +1,78 @@
+{
+  "name": "ipapi.is",
+  "url": "https://api.ipapi.is/?ip=1.1.1.1",
+  "status": "success",
+  "elapsed_ms": 261.28,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "1.1.1.1",
+    "rir": "APNIC",
+    "is_bogon": false,
+    "is_mobile": false,
+    "is_satellite": false,
+    "is_crawler": false,
+    "is_datacenter": false,
+    "is_tor": false,
+    "is_proxy": false,
+    "is_vpn": true,
+    "is_abuser": true,
+    "vpn": {
+      "ip": "1.1.1.1",
+      "service": "PublicVpnConfigs",
+      "type": "vpn_server",
+      "last_seen": 1776205574984,
+      "last_seen_str": "2026-04-14T22:26:14.984Z"
+    },
+    "company": {
+      "name": "APNIC Research and Development",
+      "abuser_score": "0.0234 (Elevated)",
+      "domain": "apnic.net",
+      "type": "business",
+      "network": "1.1.1.0 - 1.1.1.255",
+      "whois": "https://api.ipapi.is/?whois=1.1.1.0"
+    },
+    "abuse": {
+      "name": "APNIC Research and Development",
+      "address": "6 Cordelia St",
+      "email": "helpdesk@apnic.net",
+      "phone": "+61-7-38583100"
+    },
+    "asn": {
+      "asn": 13335,
+      "abuser_score": "0.0152 (Elevated)",
+      "route": "1.1.1.0/24",
+      "descr": "CLOUDFLARENET - Cloudflare, Inc., US",
+      "country": "us",
+      "active": true,
+      "org": "Cloudflare, Inc.",
+      "domain": "cloudflare.com",
+      "abuse": "abuse@cloudflare.com",
+      "type": "hosting",
+      "created": "2010-07-14",
+      "updated": "2017-02-17",
+      "rir": "ARIN",
+      "whois": "https://api.ipapi.is/?whois=AS13335"
+    },
+    "location": {
+      "is_eu_member": false,
+      "calling_code": "61",
+      "currency_code": "AUD",
+      "continent": "OC",
+      "country": "Australia",
+      "country_code": "AU",
+      "state": "Queensland",
+      "city": "Brisbane",
+      "latitude": -27.46754,
+      "longitude": 153.02809,
+      "zip": "4000",
+      "timezone": "Australia/Brisbane",
+      "local_time": "2026-04-20T14:46:39+10:00",
+      "local_time_unix": 1776660399,
+      "is_dst": false
+    },
+    "elapsed_ms": 0.39
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

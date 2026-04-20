@@ -1,0 +1,19 @@
+{
+  "name": "geojs.io",
+  "url": "https://get.geojs.io/v1/ip/geo/1.1.1.1.json",
+  "status": "success",
+  "elapsed_ms": 377.46,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "area_code": "0",
+    "asn": 13335,
+    "ip": "1.1.1.1",
+    "latitude": "nil",
+    "longitude": "nil",
+    "organization": "AS13335 Cloudflare, Inc.",
+    "organization_name": "Cloudflare, Inc."
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

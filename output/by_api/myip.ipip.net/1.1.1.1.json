@@ -1,0 +1,23 @@
+{
+  "name": "myip.ipip.net",
+  "url": "https://myip.ipip.net/json",
+  "status": "success",
+  "elapsed_ms": 64.01,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "ret": "ok",
+    "data": {
+      "ip": "112.5.70.126",
+      "location": [
+        "中国",
+        "福建",
+        "厦门",
+        "",
+        "移动"
+      ]
+    }
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

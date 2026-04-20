@@ -1,0 +1,11 @@
+{
+  "name": "test.ipw.cn",
+  "url": "https://test.ipw.cn/api/ip/myip?json",
+  "status": "error",
+  "elapsed_ms": 29.75,
+  "remark": "",
+  "supports_ip": false,
+  "result": null,
+  "error": "Cannot connect to host test.ipw.cn:443 ssl:default [getaddrinfo failed]",
+  "test_ip": "8.8.8.8"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ipquery.io",
+  "url": "https://api.ipquery.io/?format=json",
+  "status": "error",
+  "elapsed_ms": 2044.18,
+  "remark": "",
+  "supports_ip": false,
+  "result": null,
+  "error": "Cannot connect to host api.ipquery.io:443 ssl:default [远程计算机拒绝网络连接。]",
+  "test_ip": "1.1.1.1"
+}

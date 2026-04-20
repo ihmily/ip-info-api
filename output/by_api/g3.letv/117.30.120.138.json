@@ -1,0 +1,84 @@
+{
+  "name": "g3.letv",
+  "url": "https://g3.letv.com/r?format=1",
+  "status": "success",
+  "elapsed_ms": 240.79,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "ipint": "1879393918",
+    "host": "112.5.70.126",
+    "remote": "112.5.70.126",
+    "ipstart": "1879392256",
+    "ipend": "1879394303",
+    "geo": "CN.13.168.4",
+    "desc": "中国-福建省-厦门市-移动",
+    "buss": "bussid=6,alv=80,orgqos=5,host=2,port=80",
+    "curtime": 1776660388,
+    "identify": "176634890:8135",
+    "fixlist": "",
+    "qosfix": "",
+    "prior": "",
+    "manual": "",
+    "perfect": "0",
+    "recommend": "50041,50042,50049,50050,50057,50058,50072,50073,50074,50075",
+    "nodelist": [
+      {
+        "gone": 112,
+        "name": "中国-天津市-电信-1",
+        "pid": 2,
+        "aid": 65,
+        "isp": 1,
+        "detail": "",
+        "location": "http://cloudstorage/letvabcdeasktf512K"
+      },
+      {
+        "gone": 50041,
+        "name": "中国-北京市-第三方保留ISP-1",
+        "pid": 1,
+        "aid": 5,
+        "isp": 888,
+        "detail": "",
+        "location": "http://play4.cp21.ott.cibntv.net/letvabcdeasktf512K"
+      },
+      {
+        "gone": 50042,
+        "name": "中国-北京市-第三方保留ISP-2",
+        "pid": 1,
+        "aid": 5,
+        "isp": 888,
+        "detail": "",
+        "location": "http://live4.cp21.ott.cibntv.net/letvabcdeasktf512K"
+      },
+      {
+        "gone": 50075,
+        "name": "中国-北京市-第三方保留ISP-3",
+        "pid": 1,
+        "aid": 5,
+        "isp": 888,
+        "detail": "",
+        "location": "http://play5.cp21.ott.cibntv.net/letvabcdeasktf512K"
+      },
+      {
+        "gone": 50076,
+        "name": "中国-北京市-第三方保留ISP-4",
+        "pid": 1,
+        "aid": 5,
+        "isp": 888,
+        "detail": "",
+        "location": "http://live5.cp21.ott.cibntv.net/letvabcdeasktf512K"
+      },
+      {
+        "gone": 3345,
+        "name": "中国-天津市-联通-1",
+        "pid": 2,
+        "aid": 1075,
+        "isp": 2,
+        "detail": "",
+        "location": "http://125.39.236.26/letvabcdeasktf512K"
+      }
+    ]
+  },
+  "error": null,
+  "test_ip": "117.30.120.138"
+}

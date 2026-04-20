@@ -1,0 +1,23 @@
+{
+  "name": "ipbase.com",
+  "url": "https://api.ipbase.com/v1/json",
+  "status": "success",
+  "elapsed_ms": 255.69,
+  "remark": "",
+  "supports_ip": false,
+  "result": {
+    "ip": "112.5.70.126",
+    "country_code": "CN",
+    "country_name": "China",
+    "region_code": "CN-BJ",
+    "region_name": "Beijing",
+    "city": "Beijing",
+    "zip_code": "100006",
+    "time_zone": "Asia/Shanghai",
+    "latitude": 39.907501220703125,
+    "longitude": 116.39710235595703,
+    "metro_code": 0
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

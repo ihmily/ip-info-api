@@ -1,0 +1,466 @@
+[
+  {
+    "name": "ipapi.co",
+    "url": "https://ipapi.co/121.8.215.106/json/",
+    "status": "http_429",
+    "elapsed_ms": 1400.29,
+    "remark": "支持CORS",
+    "supports_ip": true,
+    "result": {
+      "reason": "RateLimited",
+      "message": "Please sign up for a paid plan at https://ipapi.co/pricing or contact us for a trial account",
+      "wait": 1.0,
+      "error": true
+    },
+    "error": null,
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 26.06,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [getaddrinfo failed]",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "api.ipify.org",
+    "url": "https://api.ipify.org?format=json",
+    "status": "error",
+    "elapsed_ms": 1703.45,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipify.org:443 ssl:default [指定的网络名不再可用。]",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 1265.0,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "api.myip.com",
+    "url": "https://api.myip.com",
+    "status": "timeout",
+    "elapsed_ms": 10579.29,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "ipquery.io",
+    "url": "https://api.ipquery.io/?format=json",
+    "status": "error",
+    "elapsed_ms": 2057.49,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipquery.io:443 ssl:default [远程计算机拒绝网络连接。]",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "cloudflare.trace",
+    "url": "https://1.1.1.1/cdn-cgi/trace",
+    "status": "timeout",
+    "elapsed_ms": 10915.09,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "torproject",
+    "url": "https://check.torproject.org/api/ip",
+    "status": "timeout",
+    "elapsed_ms": 10635.78,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 146.43,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "cip.cc",
+    "url": "http://www.cip.cc/121.8.215.106",
+    "status": "timeout",
+    "elapsed_ms": 10370.8,
+    "remark": "返回文本格式",
+    "supports_ip": true,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "121.8.215.106"
+  },
+  {
+    "name": "ipapi.co",
+    "url": "https://ipapi.co/1.1.1.1/json/",
+    "status": "http_429",
+    "elapsed_ms": 388.6,
+    "remark": "支持CORS",
+    "supports_ip": true,
+    "result": {
+      "reason": "RateLimited",
+      "message": "Please sign up for a paid plan at https://ipapi.co/pricing or contact us for a trial account",
+      "wait": 1.0,
+      "error": true
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 27.59,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [getaddrinfo failed]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "api.ipify.org",
+    "url": "https://api.ipify.org?format=json",
+    "status": "error",
+    "elapsed_ms": 2522.09,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipify.org:443 ssl:default [指定的网络名不再可用。]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 274.82,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "api.myip.com",
+    "url": "https://api.myip.com",
+    "status": "timeout",
+    "elapsed_ms": 10307.33,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "ipquery.io",
+    "url": "https://api.ipquery.io/?format=json",
+    "status": "error",
+    "elapsed_ms": 2038.4,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipquery.io:443 ssl:default [远程计算机拒绝网络连接。]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "cloudflare.trace",
+    "url": "https://1.1.1.1/cdn-cgi/trace",
+    "status": "timeout",
+    "elapsed_ms": 10507.6,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "torproject",
+    "url": "https://check.torproject.org/api/ip",
+    "status": "timeout",
+    "elapsed_ms": 10454.06,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 107.79,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "cip.cc",
+    "url": "http://www.cip.cc/1.1.1.1",
+    "status": "timeout",
+    "elapsed_ms": 10170.32,
+    "remark": "返回文本格式",
+    "supports_ip": true,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "ipapi.co",
+    "url": "https://ipapi.co/8.8.8.8/json/",
+    "status": "http_429",
+    "elapsed_ms": 388.73,
+    "remark": "支持CORS",
+    "supports_ip": true,
+    "result": {
+      "reason": "RateLimited",
+      "message": "Please sign up for a paid plan at https://ipapi.co/pricing or contact us for a trial account",
+      "wait": 1.0,
+      "error": true
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 26.7,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [getaddrinfo failed]",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "api.ipify.org",
+    "url": "https://api.ipify.org?format=json",
+    "status": "error",
+    "elapsed_ms": 2541.53,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipify.org:443 ssl:default [指定的网络名不再可用。]",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 274.0,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "api.myip.com",
+    "url": "https://api.myip.com",
+    "status": "timeout",
+    "elapsed_ms": 10113.67,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "ipquery.io",
+    "url": "https://api.ipquery.io/?format=json",
+    "status": "error",
+    "elapsed_ms": 2043.13,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipquery.io:443 ssl:default [远程计算机拒绝网络连接。]",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "cloudflare.trace",
+    "url": "https://1.1.1.1/cdn-cgi/trace",
+    "status": "timeout",
+    "elapsed_ms": 10522.25,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "torproject",
+    "url": "https://check.torproject.org/api/ip",
+    "status": "timeout",
+    "elapsed_ms": 10408.82,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 321.03,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "cip.cc",
+    "url": "http://www.cip.cc/8.8.8.8",
+    "status": "timeout",
+    "elapsed_ms": 10808.87,
+    "remark": "返回文本格式",
+    "supports_ip": true,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "ipapi.co",
+    "url": "https://ipapi.co/8.8.8.4/json/",
+    "status": "http_429",
+    "elapsed_ms": 394.21,
+    "remark": "支持CORS",
+    "supports_ip": true,
+    "result": {
+      "error": true,
+      "reason": "RateLimited",
+      "message": "Visit https://ipapi.co/ratelimited/ for details"
+    },
+    "error": null,
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 26.83,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [getaddrinfo failed]",
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "api.ipify.org",
+    "url": "https://api.ipify.org?format=json",
+    "status": "error",
+    "elapsed_ms": 2543.04,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipify.org:443 ssl:default [指定的网络名不再可用。]",
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 274.39,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "api.myip.com",
+    "url": "https://api.myip.com",
+    "status": "timeout",
+    "elapsed_ms": 10850.02,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "ipquery.io",
+    "url": "https://api.ipquery.io/?format=json",
+    "status": "error",
+    "elapsed_ms": 2046.23,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.ipquery.io:443 ssl:default [远程计算机拒绝网络连接。]",
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "cloudflare.trace",
+    "url": "https://1.1.1.1/cdn-cgi/trace",
+    "status": "timeout",
+    "elapsed_ms": 10420.02,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "torproject",
+    "url": "https://check.torproject.org/api/ip",
+    "status": "timeout",
+    "elapsed_ms": 10400.67,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "请求超时",
+    "test_ip": "8.8.8.4"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 96.32,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "8.8.8.4"
+  }
+]

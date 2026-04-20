@@ -1,0 +1,26 @@
+{
+  "name": "ip-api.com",
+  "url": "http://ip-api.com/json/1.1.1.1?lang=zh-CN",
+  "status": "success",
+  "elapsed_ms": 1363.08,
+  "remark": "支持中文",
+  "supports_ip": true,
+  "result": {
+    "status": "success",
+    "country": "澳大利亞",
+    "countryCode": "AU",
+    "region": "QLD",
+    "regionName": "Queensland",
+    "city": "South Brisbane",
+    "zip": "4101",
+    "lat": -27.4766,
+    "lon": 153.0166,
+    "timezone": "Australia/Brisbane",
+    "isp": "Cloudflare, Inc",
+    "org": "APNIC and Cloudflare DNS Resolver project",
+    "as": "AS13335 Cloudflare, Inc.",
+    "query": "1.1.1.1"
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "ip.nc.gy",
+  "url": "https://ip.nc.gy/json?ip=8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 941.14,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ip": "8.8.8.8",
+    "continent": {
+      "code": "NA",
+      "geoname_id": 6255149,
+      "names": {
+        "de": "Nordamerika",
+        "en": "North America",
+        "es": "Norteamérica",
+        "fr": "Amérique du Nord",
+        "ja": "北アメリカ",
+        "pt-BR": "América do Norte",
+        "ru": "Северная Америка",
+        "zh-CN": "北美洲"
+      }
+    },
+    "country": {
+      "geoname_id": 6252001,
+      "iso_code": "US",
+      "names": {
+        "de": "USA",
+        "en": "United States",
+        "es": "Estados Unidos",
+        "fr": "États-Unis",
+        "ja": "アメリカ",
+        "pt-BR": "EUA",
+        "ru": "США",
+        "zh-CN": "美国"
+      }
+    },
+    "location": {
+      "accuracy_radius": 1000,
+      "latitude": 37.751,
+      "longitude": -97.822,
+      "time_zone": "America/Chicago"
+    },
+    "registered_country": {
+      "geoname_id": 6252001,
+      "iso_code": "US",
+      "names": {
+        "de": "USA",
+        "en": "United States",
+        "es": "Estados Unidos",
+        "fr": "États-Unis",
+        "ja": "アメリカ",
+        "pt-BR": "EUA",
+        "ru": "США",
+        "zh-CN": "美国"
+      }
+    },
+    "asn": {
+      "autonomous_system_number": 15169,
+      "autonomous_system_organization": "Google LLC",
+      "as_domain": "google.com"
+    },
+    "proxy": {
+      "is_proxy": true,
+      "is_vpn": false,
+      "is_tor": false,
+      "is_hosting": false,
+      "is_cdn": false,
+      "is_school": false,
+      "is_anonymous": true
+    }
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

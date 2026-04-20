@@ -1,0 +1,70 @@
+{
+  "name": "freeipapi.com",
+  "url": "https://freeipapi.com/api/json/8.8.8.8",
+  "status": "success",
+  "elapsed_ms": 1624.72,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ipVersion": 4,
+    "ipAddress": "8.8.8.8",
+    "latitude": 37.422,
+    "longitude": -122.085,
+    "countryName": "United States",
+    "countryCode": "US",
+    "capital": "Washington D.C.",
+    "phoneCodes": [
+      1
+    ],
+    "timeZones": [
+      "America/Adak",
+      "America/Anchorage",
+      "America/Boise",
+      "America/Chicago",
+      "America/Denver",
+      "America/Detroit",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Knox",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Vevay",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Juneau",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Los_Angeles",
+      "America/Menominee",
+      "America/Metlakatla",
+      "America/New_York",
+      "America/Nome",
+      "America/North_Dakota/Beulah",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/Phoenix",
+      "America/Sitka",
+      "America/Yakutat",
+      "Pacific/Honolulu"
+    ],
+    "zipCode": "94035",
+    "cityName": "Mountain View",
+    "regionName": "California",
+    "regionCode": "CA",
+    "continent": "Americas",
+    "continentCode": "AM",
+    "currencies": [
+      "USD",
+      "USN",
+      "USS"
+    ],
+    "languages": [
+      "en"
+    ],
+    "asn": "15169",
+    "asnOrganization": "Google LLC",
+    "isProxy": false
+  },
+  "error": null,
+  "test_ip": "8.8.8.8"
+}

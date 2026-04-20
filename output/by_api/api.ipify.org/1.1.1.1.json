@@ -1,0 +1,11 @@
+{
+  "name": "api.ipify.org",
+  "url": "https://api.ipify.org?format=json",
+  "status": "error",
+  "elapsed_ms": 2290.55,
+  "remark": "",
+  "supports_ip": false,
+  "result": null,
+  "error": "Cannot connect to host api.ipify.org:443 ssl:default [指定的网络名不再可用。]",
+  "test_ip": "1.1.1.1"
+}

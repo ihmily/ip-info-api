@@ -1,0 +1,20 @@
+{
+  "name": "db-ip.com",
+  "url": "https://api.db-ip.com/v2/free/1.1.1.1",
+  "status": "success",
+  "elapsed_ms": 2910.1,
+  "remark": "",
+  "supports_ip": true,
+  "result": {
+    "ipAddress": "1.1.1.1",
+    "continentCode": "OC",
+    "continentName": "Oceania",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "stateProvCode": "NSW",
+    "stateProv": "New South Wales",
+    "city": "Sydney"
+  },
+  "error": null,
+  "test_ip": "1.1.1.1"
+}
