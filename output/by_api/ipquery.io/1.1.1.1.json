@@ -2,33 +2,33 @@
   "name": "ipquery.io",
   "url": "https://api.ipquery.io/?format=json",
   "status": "success",
-  "elapsed_ms": 8.41,
+  "elapsed_ms": 20.07,
   "remark": "",
   "supports_ip": false,
   "result": {
-    "ip": "4.246.135.3",
+    "ip": "145.132.102.103",
     "isp": {
       "asn": "AS8075",
       "org": "Microsoft Corporation",
-      "isp": "Microsoft Corporation"
+      "isp": "Koninklijke KPN N.V"
     },
     "location": {
-      "country": "United States",
-      "country_code": "US",
-      "city": "Washington",
-      "state": "Virginia",
-      "zipcode": "22747",
-      "latitude": 38.70398016200001,
-      "longitude": -78.13773765125839,
-      "timezone": "America/New_York",
-      "localtime": "2026-04-20T05:43:40"
+      "country": "The Netherlands",
+      "country_code": "NL",
+      "city": "The Hague",
+      "state": "South Holland",
+      "zipcode": "2597",
+      "latitude": 52.082353077683194,
+      "longitude": 4.325631995588792,
+      "timezone": "Europe/Amsterdam",
+      "localtime": "2026-04-20T06:29:55"
     },
     "risk": {
       "is_mobile": false,
       "is_vpn": false,
       "is_tor": false,
       "is_proxy": false,
-      "is_datacenter": true,
+      "is_datacenter": false,
       "risk_score": 0
     }
   },

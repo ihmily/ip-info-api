@@ -2,7 +2,7 @@
   "name": "bilibili",
   "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
   "status": "http_412",
-  "elapsed_ms": 232.7,
+  "elapsed_ms": 404.99,
   "remark": "",
   "supports_ip": false,
   "result": {
