@@ -58,11 +58,11 @@
 
 [https://api.uomg.com/api/visitor.info?skey=1](#address-2.5)   **(已失效)**
 
-[https://test.ipw.cn/api/ip/myip?json](#address-2.6) 
+[https://test.ipw.cn/api/ip/myip?json](#address-2.6)    **(已失效)**
 
 [https://api.ipify.org](#address-2.7) 
 
-[https://ipv4.my.ipinfo.app/api/ipDetails.php](#address-2.8) 
+[https://ipv4.my.ipinfo.app/api/ip](#address-2.8)
 
 [https://g3.letv.com/r?format=1](#address-2.9) 
 
@@ -1240,7 +1240,7 @@ https://api.uomg.com/api/visitor.info?skey=1
 
 &emsp;
 
-**地址⑥**：https://test.ipw.cn/api/ip/myip?json <a name="address-2.6"></a>
+**地址⑥**：https://test.ipw.cn/api/ip/myip?json <a name="address-2.6"></a>  **(已失效)**
 
 请求类型：GET
 
@@ -1298,7 +1298,7 @@ https://api64.ipify.org/?format=json
 
 &emsp;
 
-**地址⑧**：https://ipv4.my.ipinfo.app/api/ipDetails.php <a name="address-2.8"></a>
+**地址⑧**：https://ipv4.my.ipinfo.app/api/ip <a name="address-2.8"></a>
 
 请求类型：GET
 
@@ -1309,7 +1309,7 @@ CORS跨域支持：是
 请求示例：
 
 ```
-https://ipv4.my.ipinfo.app/api/ipDetails.php
+https://ipv4.my.ipinfo.app/api/ip
 ```
 
 示例结果：
