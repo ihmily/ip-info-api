@@ -46,6 +46,10 @@
 
 [https://ip.nc.gy/json](#address-1.19)
 
+[https://ipdata.info/json](#address-1.20)
+
+[https://ipwtf.com/api/whois](#address-1.21)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1)  **(已失效)**
@@ -1094,6 +1098,147 @@ https://ip.nc.gy/json?ip=45.77.77.77
     "is_school": false,
     "is_anonymous": true
   }
+}
+```
+
+&emsp;
+
+**地址20**：https://ipdata.info/json <a name="address-1.20"></a>
+
+请求类型：GET
+
+请求参数(可选)：路径参数(ip)
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 查询本机ip
+https://ipdata.info/json
+
+# 通过ip查询信息
+https://ipdata.info/json/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ip": "121.8.215.106",
+  "success": true,
+  "type": "IPv4",
+  "continent": "Asia",
+  "continent_code": "AS",
+  "country": "China",
+  "country_code": "CN",
+  "region": "Guangdong",
+  "region_code": "GD",
+  "city": "Guangzhou",
+  "latitude": 23.1181,
+  "longitude": 113.2539,
+  "is_eu": false,
+  "timezone": "Asia/Shanghai",
+  "zip": "510030",
+  "postal": "510030",
+  "calling_code": "86",
+  "capital": "Beijing",
+  "borders": "AF,BT,MM,HK,IN,KZ,NP,KP,KG,LA,MO,MN,PK,RU,TJ,VN",
+  "asn": 4134,
+  "asn_org": "Chinanet",
+  "isp": "",
+  "registry": "APNIC",
+  "is_proxy": false,
+  "is_hosting": false,
+  "network": {
+    "asn": 4134,
+    "as_name": "Chinanet",
+    "route": "121.8.192.0/18",
+    "registry_country": "CN",
+    "last_changed": null,
+    "is_proxy": null,
+    "proxy_type": null,
+    "usage_type": null
+  },
+  "flag": {
+    "img": "https://ipdata.info/flags/cn.svg",
+    "emoji": "🇨🇳",
+    "emoji_unicode": "U+1F1E8 U+1F1F3"
+  },
+  "connection": {
+    "asn": 4134,
+    "org": "Chinanet"
+  },
+  "time_zone": {
+    "id": "Asia/Shanghai",
+    "abbr": "CST",
+    "is_dst": false,
+    "offset": 28800,
+    "utc": "+08:00",
+    "current_time": "2026-07-07T01:03:45+08:00"
+  },
+  "currency": {
+    "name": "Chinese yuan",
+    "code": "CNY",
+    "symbol": "¥"
+  },
+  "security": {
+    "anonymous": false,
+    "proxy": false,
+    "vpn": false,
+    "tor": false,
+    "hosting": false
+  }
+}
+```
+
+&emsp;
+
+**地址21**：https://ipwtf.com/api/whois <a name="address-1.21"></a>
+
+请求类型：GET
+
+请求参数(可选)：路径参数(ip)
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+# 查询本机ip
+https://ipwtf.com/api/whois
+
+# 通过ip查询信息
+https://ipwtf.com/api/whois/121.8.215.106
+
+# 支持格式(format)：json(默认)、xml、csv、line
+https://ipwtf.com/api/whois/121.8.215.106?format=csv
+```
+
+示例结果：
+
+```
+{
+    "ipv4": {
+        "ip": "121.8.215.106",
+        "ipNumber": "2030622570",
+        "ipVersion": 4,
+        "countryName": "China",
+        "countryCode": "CN",
+        "latitude": 23.127361,
+        "longitude": 113.264572,
+        "timeZone": "+08:00",
+        "zipCode": "510030",
+        "cityName": "Guangzhou",
+        "regionName": "Guangdong",
+        "as": "Asia Pacific Network Information Centre",
+        "asn": "4134",
+        "isProxy": 1,
+        "proxyType": "PUB",
+        "lastSeen": "1",
+        "usageType": "ISP/MOB",
+        "domain": "chinatelecom.com.cn"
+    }
 }
 ```
 
