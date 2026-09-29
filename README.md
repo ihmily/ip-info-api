@@ -28,7 +28,7 @@
 
 [https://ipapi.co/json/](#address-1.10)
 
-[https://api.ipapi.is](#address-1.11)
+[https://api.ipapi.is](#address-1.11)  **(已失效)**
 
 [https://api.ip.sb/geoip](#address-1.12)
 
@@ -70,7 +70,7 @@
 
 [https://g3.letv.com/r?format=1](#address-2.9) 
 
-[https://iplark.com/ipstack](#address-2.10) 
+[https://iplark.com/ipinf0](#address-2.10) 
 
 [https://qifu-api.baidubce.com/ip/local/geo/v1/district](#address-2.11)   **(已失效)**
 
@@ -82,7 +82,7 @@
 
 [https://geolocation-db.com/json](#address-2.15) 
 
-[https://api.myip.com](#address-2.16) 
+[https://api.myip.com](#address-2.16)   **(已失效)**
 
 [https://ipapi.co/json](#address-2.17) 
 
@@ -100,9 +100,11 @@
 
 [https://i.news.qq.com/api/ip2city](#address-2.24)
 
-[https://ipv4.gdt.qq.com/get_client_ip](#address-2.25)
+[https://uapis.cn/api/v1/network/myip](#address-2.25)
 
-[https://uapis.cn/api/v1/network/myip](#address-2.26)
+[https://ipv4.iplark.com/cdn-cgi/trace](#address-2.26)
+
+[https://api.myip.la/cn?json](#address-2.27)
 
 3.只可通过IP查询信息
 
@@ -607,7 +609,7 @@ https://ipapi.co/121.8.215.106/json/
 
 &emsp;
 
-**地址11**：https://ipapi.co/json <a name="address-1.11"></a>
+**地址11**：https://ipapi.co/json <a name="address-1.11"></a>  **(已失效)**
 
 请求类型：GET
 
@@ -1530,7 +1532,7 @@ https://g3.letv.com/r?format=2
 
 &emsp;
 
-**地址⑩**：https://iplark.com/ipstack <a name="address-2.10"></a>
+**地址⑩**：https://iplark.com/ipinf0 <a name="address-2.10"></a>
 
 请求类型：GET
 
@@ -1541,7 +1543,7 @@ CORS跨域支持：否
 请求示例：
 
 ```
-https://iplark.com/ipstack
+https://iplark.com/ipinf0
 ```
 
 示例结果：
@@ -1549,45 +1551,15 @@ https://iplark.com/ipstack
 ```
 {
   "ip": "38.207.137.254",
-  "type": "ipv4",
-  "continent_code": "NA",
-  "continent_name": "北美",
-  "country_code": "US",
-  "country_name": "美国",
-  "region_code": "NY",
-  "region_name": "纽约州",
   "city": "Manhattan",
-  "zip": "10020",
-  "latitude": 40.7589111328125,
-  "longitude": -73.97901916503906,
-  "msa": "35620",
-  "dma": "501",
-  "radius": null,
-  "ip_routing_type": "fixed",
-  "connection_type": "tx",
-  "location": {
-    "geoname_id": 5125771,
-    "capital": "Washington D.C.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English",
-        "native": "English"
-      }
-    ],
-    "country_flag": "https://assets.ipstack.com/flags/us.svg",
-    "country_flag_emoji": "🇺🇸",
-    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
-    "calling_code": "1",
-    "is_eu": false
-  },
-  "time_zone": {
-    "id": "America/New_York",
-    "current_time": "2024-11-04T22:52:33-05:00",
-    "gmt_offset": -18000,
-    "code": "EST",
-    "is_daylight_saving": false
-  }
+  "region": "纽约州",
+  "country": "美国 - 纽约州",
+  "loc": "40.7589111328125,-73.97901916503906",
+  "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
+  "postal": "5125771",
+  "timezone": "America/New_York",
+  "asn": "AS45102",
+  "as_domain": "alibabagroup.com"
 }
 ```
 
@@ -1773,7 +1745,7 @@ https://geolocation-db.com/json
 
 &emsp;
 
-**地址16**：https://api.myip.com <a name="address-2.16"></a>
+**地址16**：https://api.myip.com <a name="address-2.16"></a>  **(已失效)**
 
 请求类型：GET
 
@@ -2094,33 +2066,8 @@ https://i.news.qq.com/api/ip2city
 ```
 
 
-&emsp;
 
-**地址25**: https://ipv4.gdt.qq.com/get_client_ip <a name="address-2.25"></a>
-
-请求类型：GET
-
-请求参数：无
-
-CORS跨域支持：否
-
-返回类型：  `text/plain`
-
-请求示例：
-
-```
-https://ipv4.gdt.qq.com/get_client_ip
-```
-
-示例结果： 
-
-```
-223.199.183.154
-```
-
-&emsp;
-
-**地址26**: https://uapis.cn/api/v1/network/myip <a name="address-2.26"></a>
+**地址25**: https://uapis.cn/api/v1/network/myip <a name="address-2.25"></a>
 
 请求类型：GET
 
@@ -2151,6 +2098,71 @@ https://uapis.cn/api/v1/network/myip?source=commercial
   "llc": "美国电话电报公司",
   "latitude": 34.05223,
   "longitude": -118.24368
+}
+```
+
+&emsp;
+
+**地址26**: https://ipv4.iplark.com/cdn-cgi/trace <a name="address-2.26"></a>
+
+请求类型：GET
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://ipv4.iplark.com/cdn-cgi/trace
+```
+
+示例结果：
+
+```
+fl=976f59
+h=ipv4.iplark.com
+ip=8.217.207.0
+ts=1790653040.000
+visit_scheme=https
+uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0
+colo=HKG
+sliver=none
+http=http/2
+loc=HK
+tls=TLSv1.3
+sni=plaintext
+warp=off
+gateway=off
+rbi=off
+kex=X25519MLKEM768
+```
+
+&emsp;
+
+**地址27**: https://api.myip.la/cn?json <a name="address-2.27"></a>
+
+请求类型：GET
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+https://api.myip.la/cn?json
+```
+
+示例结果：
+
+```
+{
+  "ip": "23.132.203.77",
+  "location": {
+    "city": "California Los Angeles",
+    "country_code": "US",
+    "country_name": "美国",
+    "latitude": "34.05223",
+    "longitude": "-118.24368",
+    "province": "California Los Angeles"
+  }
 }
 ```
 
@@ -2631,6 +2643,7 @@ curl https://myexternalip.com/json
 curl https://ipv4.getip.cc
 curl http://ipv6.getip.cc
 curl ip.nc.gy
+curl https://ipv4.gdt.qq.com/get_client_ip
 ```
 
 示例结果：
