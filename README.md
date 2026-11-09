@@ -104,7 +104,7 @@
 
 [https://ipv4.iplark.com/cdn-cgi/trace](#address-2.26)
 
-[https://api.myip.la/cn?json](#address-2.27)
+[https://api.myip.la/cn?json](#address-2.27)  **(已失效)**
 
 3.只可通过IP查询信息
 
@@ -116,7 +116,7 @@
 
 [https://ipapi.com/ip_api.php?ip=121.8.215.106](#address-3.4)  **(已失效)**
 
-[https://db-ip.com/demo/home.php?s=121.8.215.106](#address-3.5) 
+[https://db-ip.com/demo/home.php?s=121.8.215.106](#address-3.5)  **(已失效)**
 
 [https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106](#address-3.6)  **(已失效)**
 
@@ -2138,7 +2138,7 @@ kex=X25519MLKEM768
 
 &emsp;
 
-**地址27**: https://api.myip.la/cn?json <a name="address-2.27"></a>
+**地址27**: https://api.myip.la/cn?json <a name="address-2.27"></a>  **(已失效)**
 
 请求类型：GET
 
@@ -2397,7 +2397,7 @@ https://ipapi.com/ip_api.php?ip=121.8.215.106
 
 &emsp;
 
-**地址⑤**：https://db-ip.com/demo/home.php?s=121.8.215.106 <a name="address-3.5"></a>
+**地址⑤**：https://db-ip.com/demo/home.php?s=121.8.215.106 <a name="address-3.5"></a>  **(已失效)**
 
 请求类型：GET
 
