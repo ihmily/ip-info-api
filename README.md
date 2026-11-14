@@ -50,6 +50,8 @@
 
 [https://ipwtf.com/api/whois](#address-1.21)
 
+[https://api.internetdata.io/myip](#address-1.22)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1)  **(已失效)**
@@ -1245,6 +1247,74 @@ https://ipwtf.com/api/whois/121.8.215.106?format=csv
         "usageType": "ISP/MOB",
         "domain": "chinatelecom.com.cn"
     }
+}
+```
+
+&emsp;
+
+**地址22**：https://api.internetdata.io/myip <a name="address-1.22"></a>
+
+请求类型：GET
+
+请求参数(可选)：路径参数(ip)
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 查询本机ip
+https://api.internetdata.io/myip
+
+# 通过ip查询信息
+https://api.internetdata.io/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ip": "121.8.215.106",
+  "is_bogon": false,
+  "is_tor": false,
+  "is_relay": false,
+  "is_anycast": false,
+  "is_carrier": true,
+  "is_satellite": false,
+  "is_ssh": false,
+  "is_smtp": false,
+  "is_web": false,
+  "is_dns_resolver": false,
+  "is_bittorrent": false,
+  "location": {
+    "continent": "AS",
+    "continent_name": "Asia",
+    "country": "CN",
+    "country_name": "China",
+    "timezone": "Asia/Shanghai",
+    "currency_code": "CNY",
+    "currency_name": "Yuan Renminbi",
+    "currency_symbol": "CN¥",
+    "flag_emoji": "🇨🇳",
+    "flag_unicode": "U+1F1E8 U+1F1F3"
+  },
+  "tor": {},
+  "relay": {},
+  "asn": {
+    "asn": 4134,
+    "name": "CHINANET-BACKBONE",
+    "domain": "chinatelecom.com.cn",
+    "type": "isp",
+    "prefix": "121.8.0.0/13"
+  },
+  "company": {
+    "name": "CHINANET Guangdong province network",
+    "domain": "chinatelecom.com.cn"
+  },
+  "hostname": "",
+  "abuse": {
+    "email": "anti-spam@chinatelecom.cn"
+  }
 }
 ```
 
